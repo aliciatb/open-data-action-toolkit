@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello",
+    "section": "",
+    "text": "This website provides a toolkit for evaluating open data activity in an area and how to contribute to community efforts to improve local information. The list below provides examples of activity measures and action opportunities."
+  },
+  {
+    "objectID": "index.html#activity-measures",
+    "href": "index.html#activity-measures",
+    "title": "Hello",
+    "section": "Activity Measures",
+    "text": "Activity Measures\n\nEvents\nActive civic technology and community organizations\nOpen data referenced in local news and blogs\nOpen data analysis products on local government and community organization websites\nNew and frequently updated datasets on open data portals"
+  },
+  {
+    "objectID": "index.html#action-opportunities",
+    "href": "index.html#action-opportunities",
+    "title": "Hello",
+    "section": "Action Opportunities",
+    "text": "Action Opportunities\n\nAttend or volunteer at datathon and hackthon events\nAttend meetings (council, community organizations, neighborhood associations)\nJoin civic technology organizations\nOpportunities at local governments and community organizations\nPublic information requests for missing and incomplete data"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The intention of the Open Data Action Toolkit is to provide methods for measuring the activity of an open data community by including the work and events led by intermediaries and department data publishers. While data portal analysis provides some information about open data activity, the full picture of an open data ecosystem requires the inclusion of other modes of sharing information.\nThis toolkit is part of a dissertation portfolio that includes a case study of 3 local governments and a story map of open data policy analysis in the United States."
+  }
+]

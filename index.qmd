@@ -1,0 +1,29 @@
+---
+title: "Hello"
+---
+
+This website provides a toolkit for evaluating open data activity in an area and how to contribute to community efforts to improve local information. The list below provides examples of activity measures and action opportunities.
+
+## Activity Measures
+
+- Events
+
+- Active civic technology and community organizations
+
+- Open data referenced in local news and blogs
+
+- Open data analysis products on local government and community organization websites
+
+- New and frequently updated datasets on open data portals
+
+## Action Opportunities
+
+- Attend or volunteer at datathon and hackthon events
+
+- Attend meetings (council, community organizations, neighborhood associations)
+
+- Join civic technology organizations
+
+- Opportunities at local governments and community organizations
+
+- Public information requests for missing and incomplete data

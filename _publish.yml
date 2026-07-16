@@ -1,0 +1,4 @@
+- source: project
+  posit-connect-cloud:
+    - id: 019f68ea-34a4-2742-0ad2-0d8b9e326009
+      url: https://connect.posit.cloud/aliciabrown/content/019f68ea-34a4-2742-0ad2-0d8b9e326009
