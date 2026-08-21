@@ -1,29 +1,33 @@
 ---
-title: "Hello"
+title: "Purpose"
 ---
 
-This website provides a toolkit for evaluating open data activity in an area and how to contribute to community efforts to improve local information. The list below provides examples of activity measures and action opportunities.
+The open data actions and measures toolkit provides guidance on how to measure organizational actions and public engagement with open data to present a cohesive view of the activity and use of open data in a community. The actions and measures shared in the toolkit were identified from case study research of 3 local governments in the U.S. and from a literature review on open data use, participation, engagement, and user-friendly data products. 
 
-## Activity Measures
+The examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.
 
-- Events
+# Measures
 
-- Active civic technology and community organizations
+Common ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.
 
-- Open data referenced in local news and blogs
+Downloads of data and requests to API (application programming interface) endpoints for datasets are other ways that the public use open data, often with analysis and coding tools that ease the connection to data and enable automatic refreshes.
 
-- Open data analysis products on local government and community organization websites
+Learn how to access [web analytics](analytics.qmd) from open data portal platforms.
 
-- New and frequently updated datasets on open data portals
+# Actions
 
-## Action Opportunities
+Actions include the creation of data products (new data, maps, applications, dashboards, narrative, visualizations, articles) and enablement acts (support, communications, events, community coordination, promotion) by open data programs and other members of the community to empower the public to use open data meaningfully.
 
-- Attend or volunteer at datathon and hackthon events
+View types of [actions](actions.qmd) that demonstrate intent to enable and empower the public.
 
-- Attend meetings (council, community organizations, neighborhood associations)
+# Engagement
 
-- Join civic technology organizations
+Other signals of open data activity in the community include attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.
 
-- Opportunities at local governments and community organizations
+View ways of tracking [engagement](engagement.qmd) with open data by the public, intermediaries, and community advocates.
 
-- Public information requests for missing and incomplete data
+# Reporting
+
+Reporting is an important way to link organizational actions with measures of success. Annual reports, performance dashboards, and blog posts provide opportunities to explain why an action is important.
+
+View recommendations for [reporting](reporting.qmd) contents and cadence as well as examples by programs and community organizations.

@@ -2,6 +2,6 @@
 title: "About"
 ---
 
-The intention of the Open Data Action Toolkit is to provide methods for measuring the activity of an open data community by including the work and events led by intermediaries and department data publishers. While data portal analysis provides some information about open data activity, the full picture of an open data ecosystem requires the inclusion of other modes of sharing information.
+The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.
 
-This toolkit is part of a dissertation portfolio that includes a case study of 3 local governments and a story map of open data policy analysis in the United States.
+The development of the open data actions and measures toolkit fulfills one part of a dissertation portfolio that focuses on measuring open data use and engagement to serve and empower the public. A review of open data research, public administration theory, and case studies of 3 local governments in the U.S. inform the recommendations.

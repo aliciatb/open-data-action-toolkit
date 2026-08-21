@@ -1,0 +1,23 @@
+---
+title: "Reporting"
+bibliography: references.bib
+link-citations: true
+---
+
+Reporting provides programs the opportunity to link actions to outcomes.
+
+## Annual Reporting
+
+Open data policies can be a driver for reporting by including them as a requirement. For example the open data policy[@cityofbatonrougeandparishofeastbatonrouge] for the City of Baton Rouge and Parish of East Baton Rouge requires on annual reporting that "includes an assessment of progress toward achievement of the goals of the City-Parish’s Open Data BR program (under which all City-Parish open data related activities occur), an assessment of how the City-Parish’s work has furthered or will further the City-Parish’s programmatic priorities, and a description and publication timeline for datasets envisioned to be published by the City-Parish in the following year". Since 2018, they have published annual reports, including some reports published directly on one of their open data platforms.
+
+# Dashboards
+
+## Performance
+
+Performance dashboards provide information about program priorities as well the results.
+
+## Web Analytics
+
+The cumulative (lifetime) views, downloads, shares, embeds, and programmatic requests to datasets are provided by default by platforms on individual metadata pages and asset inventories. Programs may also track analytics on a daily basis to show use over time.
+
+View examples of [reports](analytics.html#data-portal-detailed-reports).

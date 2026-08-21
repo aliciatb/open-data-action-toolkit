@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Open Data Public Measures Toolkit</title>
+<title>Web Analytics – Open Data Public Measures Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./analytics.html"> 
+    <a class="nav-link active" href="./analytics.html" aria-current="page"> 
 <span class="menu-text">Analytics</span></a>
   </li>  
   <li class="nav-item">
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Reporting</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -140,15 +140,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-catalogs" id="toc-data-catalogs" class="nav-link active" data-scroll-target="#data-catalogs">Data Catalogs</a></li>
+  <li><a href="#web-analytics" id="toc-web-analytics" class="nav-link" data-scroll-target="#web-analytics">Web Analytics</a>
+  <ul class="collapse">
+  <li><a href="#overview-pages" id="toc-overview-pages" class="nav-link" data-scroll-target="#overview-pages">Overview Pages</a></li>
+  <li><a href="#apis-application-programming-interfaces" id="toc-apis-application-programming-interfaces" class="nav-link" data-scroll-target="#apis-application-programming-interfaces">APIs (Application programming interfaces)</a></li>
+  <li><a href="#data-portal-detailed-reports" id="toc-data-portal-detailed-reports" class="nav-link" data-scroll-target="#data-portal-detailed-reports">Data Portal Detailed Reports</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Web Analytics</h1>
 </div>
 
 
@@ -165,12 +177,100 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.</p>
-<p>The development of the open data actions and measures toolkit fulfills one part of a dissertation portfolio that focuses on measuring open data use and engagement to serve and empower the public. A review of open data research, public administration theory, and case studies of 3 local governments in the U.S. inform the recommendations.</p>
+<p>The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data. Common data portal providers that publish web analytic information include Tyler Technologies<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and Esri<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<section id="data-catalogs" class="level2">
+<h2 class="anchored" data-anchor-id="data-catalogs">Data Catalogs</h2>
+<p>Example data catalogs include:</p>
+<ul>
+<li><p>Austin, Texas</p>
+<ul>
+<li><p>Data catalog: <a href="https://data.austintexas.gov/browse" class="uri">https://data.austintexas.gov/browse</a></p></li>
+<li><p>Map catalog: <a href="https://austin.maps.arcgis.com/home/gallery.html" class="uri">https://austin.maps.arcgis.com/home/gallery.html</a></p></li>
+</ul></li>
+<li><p>Baton Rouge, Louisiana</p>
+<ul>
+<li><p>Data catalog: <a href="https://data.brla.gov/browse" class="uri">https://data.brla.gov/browse</a></p></li>
+<li><p>Maps and applications catalog: <a href="https://data-ebrgis.opendata.arcgis.com/search" class="uri">https://data-ebrgis.opendata.arcgis.com/search</a></p></li>
+</ul></li>
+<li><p>San Francisco, California</p>
+<ul>
+<li><p>Data catalog: <a href="https://data.sfgov.org/browse" class="uri">https://data.sfgov.org/browse</a></p></li>
+<li><p>Maps and : <a href="https://sfgov.maps.arcgis.com/home/gallery.html" class="uri">https://sfgov.maps.arcgis.com/home/gallery.html</a></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="web-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="web-analytics">Web Analytics</h2>
+<p>Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface).</p>
+<section id="overview-pages" class="level3">
+<h3 class="anchored" data-anchor-id="overview-pages">Overview Pages</h3>
+<p>Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the <a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data">Issued Construction Permits</a> on the Austin data portal.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data"><img src="images/clipboard-austin-issued-building-permits.png" class="img-fluid figure-img" alt="Screenshot showing the about section on the Issue Building Permits dataset overview page"></a></p>
+<figcaption>Issued Building Permits</figcaption>
+</figure>
+</div>
+<p>In the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.</p>
+</section>
+<section id="apis-application-programming-interfaces" class="level3">
+<h3 class="anchored" data-anchor-id="apis-application-programming-interfaces">APIs (Application programming interfaces)</h3>
+<p>The Tyler Technologies <a href="https://dev.socrata.com/docs/other/discovery#?route=overview--purpose">Discovery API</a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.</p>
+<p>Example API endpoint with parameters to retrieve all published data assets by data portal domain:</p>
+<ul>
+<li><p>Austin, Texas</p>
+<ul>
+<li>Discovery catalog endpoint: <a href="http://api.us.socrata.com/api/catalog/v1?search_context=data.austintexas.gov&amp;published=true&amp;limit=5000" class="uri">http://api.us.socrata.com/api/catalog/v1?search_context=data.austintexas.gov&amp;published=true&amp;limit=5000</a></li>
+</ul></li>
+<li><p>Baton Rouge, Louisiana</p>
+<ul>
+<li>Discovery catalog endpoint: <a href="http://api.us.socrata.com/api/catalog/v1?search_context=data.brla.gov&amp;published=true&amp;limit=5000" class="uri">http://api.us.socrata.com/api/catalog/v1?search_context=data.brla.gov&amp;published=true&amp;limit=5000</a></li>
+</ul></li>
+<li><p>San Francisco, California</p>
+<ul>
+<li>Discovery catalog endpoint: <a href="http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&amp;published=true&amp;limit=5000" class="uri">http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&amp;published=true&amp;limit=5000</a></li>
+</ul></li>
+</ul>
+<p>The following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-powerbi-discovery-api.png" class="img-fluid figure-img" alt="Dashboard screenshot of a Power BI report with analytic data for Austin, Baton Rouge, and San Francisco open data assets"></p>
+<figcaption>Power BI Report of Discovery API Results</figcaption>
+</figure>
+</div>
+</section>
+<section id="data-portal-detailed-reports" class="level3">
+<h3 class="anchored" data-anchor-id="data-portal-detailed-reports">Data Portal Detailed Reports</h3>
+<p>Data portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.</p>
+<p>Example portal reports:</p>
+<ul>
+<li><p>Austin, Texas</p>
+<ul>
+<li><a href="https://data.austintexas.gov/stories/s/6tzi-5xt6">Open Data Portal Web Analytics Dashboard</a></li>
+</ul></li>
+<li><p>Baton Rouge, Louisiana</p>
+<ul>
+<li><a href="https://data.brla.gov/Government/Website-Analytics/n9u7-h9i7/about_data">Website Analytics Dataset</a></li>
+</ul></li>
+<li><p>San Francisco, California</p>
+<ul>
+<li><a href="https://data.sfgov.org/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/">Dataset Inventory Explorer</a></li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Tyler Technologies. (2022, December 20). <em>Data &amp; Insights Site Analytics</em>. Data &amp; Insights Client Center. <a href="https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics" class="uri">https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><em>Monitor item usage—ArcGIS Online Help | Documentation</em>. (n.d.). Retrieved August 16, 2026, from <a href="https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm" class="uri">https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><em>Socrata Discovery API</em>. (n.d.). Retrieved August 18, 2026, from <a href="https://dev.socrata.com/docs/other/discovery#?route=overview--purpose" class="uri">https://dev.socrata.com/docs/other/discovery#?route=overview--purpose</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

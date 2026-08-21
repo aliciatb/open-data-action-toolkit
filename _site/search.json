@@ -1,30 +1,198 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Program Engagement Models\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "portals.html",
+    "href": "portals.html",
+    "title": "Portals",
+    "section": "",
+    "text": "To enable the collection of data about actions, programs should consider how they can attach metadata to datasets and data products that explain what initiated its creation and how it supports department and community priorities. and services and priorities. Program should also try to classify other actions like events, enablement content, questions, and support requests within their systems of record so that data can also be shared publicly.\n\n\n\n Back to top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hello",
+    "title": "Purpose",
     "section": "",
-    "text": "This website provides a toolkit for evaluating open data activity in an area and how to contribute to community efforts to improve local information. The list below provides examples of activity measures and action opportunities."
+    "text": "The open data actions and measures toolkit provides guidance on how to measure organizational actions and public engagement with open data to present a cohesive view of the activity and use of open data in a community. The actions and measures shared in the toolkit were identified from case study research of 3 local governments in the U.S. and from a literature review on open data use, participation, engagement, and user-friendly data products.\nThe examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.\n\nMeasures\nCommon ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.\nDownloads of data and requests to API (application programming interface) endpoints for datasets are other ways that the public use open data, often with analysis and coding tools that ease the connection to data and enable automatic refreshes.\nLearn how to access web analytics from open data portal platforms.\n\n\nActions\nActions include the creation of data products (new data, maps, applications, dashboards, narrative, visualizations, articles) and enablement acts (support, communications, events, community coordination, promotion) by open data programs and other members of the community to empower the public to use open data meaningfully.\nView types of actions that demonstrate intent to enable and empower the public.\n\n\nEngagement\nOther signals of open data activity in the community include attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.\nView ways of tracking engagement with open data by the public, intermediaries, and community advocates.\n\n\nReporting\nReporting is an important way to link organizational actions with measures of success. Annual reports, performance dashboards, and blog posts provide opportunities to explain why an action is important.\nView recommendations for reporting contents and cadence as well as examples by programs and community organizations.\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "index.html#activity-measures",
-    "href": "index.html#activity-measures",
-    "title": "Hello",
-    "section": "Activity Measures",
-    "text": "Activity Measures\n\nEvents\nActive civic technology and community organizations\nOpen data referenced in local news and blogs\nOpen data analysis products on local government and community organization websites\nNew and frequently updated datasets on open data portals"
+    "objectID": "engagement.html",
+    "href": "engagement.html",
+    "title": "Engagement",
+    "section": "",
+    "text": "Engagement with open data can be measured through:"
   },
   {
-    "objectID": "index.html#action-opportunities",
-    "href": "index.html#action-opportunities",
-    "title": "Hello",
-    "section": "Action Opportunities",
-    "text": "Action Opportunities\n\nAttend or volunteer at datathon and hackthon events\nAttend meetings (council, community organizations, neighborhood associations)\nJoin civic technology organizations\nOpportunities at local governments and community organizations\nPublic information requests for missing and incomplete data"
+    "objectID": "engagement.html#articles",
+    "href": "engagement.html#articles",
+    "title": "Engagement",
+    "section": "Articles",
+    "text": "Articles\nThe potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information (Shaharudin et al. 2023) and creating feedback loops to government (Wilson and Chakraborty 2019).\n\nData Sources\n\nGoogle alerts to monitoring local news and blogs\n\nWhile new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone (Felle 2016) and depend on access to devices, internet, and subscriptions to news services."
+  },
+  {
+    "objectID": "engagement.html#events",
+    "href": "engagement.html#events",
+    "title": "Engagement",
+    "section": "Events",
+    "text": "Events\nEvents and attendance."
+  },
+  {
+    "objectID": "analytics.html",
+    "href": "analytics.html",
+    "title": "Web Analytics",
+    "section": "",
+    "text": "The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data. Common data portal providers that publish web analytic information include Tyler Technologies1 and Esri2."
+  },
+  {
+    "objectID": "analytics.html#data-catalogs",
+    "href": "analytics.html#data-catalogs",
+    "title": "Web Analytics",
+    "section": "Data Catalogs",
+    "text": "Data Catalogs\nExample data catalogs include:\n\nAustin, Texas\n\nData catalog: https://data.austintexas.gov/browse\nMap catalog: https://austin.maps.arcgis.com/home/gallery.html\n\nBaton Rouge, Louisiana\n\nData catalog: https://data.brla.gov/browse\nMaps and applications catalog: https://data-ebrgis.opendata.arcgis.com/search\n\nSan Francisco, California\n\nData catalog: https://data.sfgov.org/browse\nMaps and : https://sfgov.maps.arcgis.com/home/gallery.html"
+  },
+  {
+    "objectID": "analytics.html#web-analytics",
+    "href": "analytics.html#web-analytics",
+    "title": "Web Analytics",
+    "section": "Web Analytics",
+    "text": "Web Analytics\nData portals publish the number of page views for data assets on overview pages and through APIs (application programming interface).\n\nOverview Pages\nDataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the Issued Construction Permits on the Austin data portal.\n\n\n\nIssued Building Permits\n\n\nIn the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.\n\n\nAPIs (Application programming interfaces)\nThe Tyler Technologies Discovery API3 provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.\nExample API endpoint with parameters to retrieve all published data assets by data portal domain:\n\nAustin, Texas\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.austintexas.gov&published=true&limit=5000\n\nBaton Rouge, Louisiana\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.brla.gov&published=true&limit=5000\n\nSan Francisco, California\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&published=true&limit=5000\n\n\nThe following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.\n\n\n\nPower BI Report of Discovery API Results\n\n\n\n\nData Portal Detailed Reports\nData portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.\nExample portal reports:\n\nAustin, Texas\n\nOpen Data Portal Web Analytics Dashboard\n\nBaton Rouge, Louisiana\n\nWebsite Analytics Dataset\n\nSan Francisco, California\n\nDataset Inventory Explorer"
+  },
+  {
+    "objectID": "analytics.html#footnotes",
+    "href": "analytics.html#footnotes",
+    "title": "Web Analytics",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTyler Technologies. (2022, December 20). Data & Insights Site Analytics. Data & Insights Client Center. https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics↩︎\nMonitor item usage—ArcGIS Online Help | Documentation. (n.d.). Retrieved August 16, 2026, from https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm↩︎\nSocrata Discovery API. (n.d.). Retrieved August 18, 2026, from https://dev.socrata.com/docs/other/discovery#?route=overview--purpose↩︎"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The intention of the Open Data Action Toolkit is to provide methods for measuring the activity of an open data community by including the work and events led by intermediaries and department data publishers. While data portal analysis provides some information about open data activity, the full picture of an open data ecosystem requires the inclusion of other modes of sharing information.\nThis toolkit is part of a dissertation portfolio that includes a case study of 3 local governments and a story map of open data policy analysis in the United States."
+    "text": "The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.\nThe development of the open data actions and measures toolkit fulfills one part of a dissertation portfolio that focuses on measuring open data use and engagement to serve and empower the public. A review of open data research, public administration theory, and case studies of 3 local governments in the U.S. inform the recommendations.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "actions.html",
+    "href": "actions.html",
+    "title": "Actions",
+    "section": "",
+    "text": "New datasets may be tracked from asset inventories, program announcements, and press releases.\n\n\n\nApplications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.\n\n\n\nMaps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.\n\n\n\nBy subscribing to alerts and monitoring local news sources, it is possible to create an inventory of citations and use of open data.\n\n\n\nData stories created by departments that show current conditions and the results of program actions\n\n\n\n\nData portal as the standard\nData catalog – inclusive (GIS, community)\nData quality\n\n\n\n\n\nSupport platform\nCommunication channels\nOffice hours\n\n\n\n\n\nArticles\nVideos\nCase studies\n\n\n\n\nExamples of how to add context to include:\n\nNew datasets created through public information requests\nNew datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority\nNew datasets created from legal settlements.\nNew datasets created from multiple organizations that share ownership of source data and require coordination.\nNew datasets created (crowd-sourced) by community members for data not collected by local government organizations.\nNew datasets initiated from audit recommendations\nNew datasets initiated from department initiatives\nCreated to aid emergency response"
+  },
+  {
+    "objectID": "actions.html#datasets",
+    "href": "actions.html#datasets",
+    "title": "Actions",
+    "section": "",
+    "text": "New datasets may be tracked from asset inventories, program announcements, and press releases."
+  },
+  {
+    "objectID": "actions.html#applications",
+    "href": "actions.html#applications",
+    "title": "Actions",
+    "section": "",
+    "text": "Applications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose."
+  },
+  {
+    "objectID": "actions.html#map-applications",
+    "href": "actions.html#map-applications",
+    "title": "Actions",
+    "section": "",
+    "text": "Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs."
+  },
+  {
+    "objectID": "actions.html#articles",
+    "href": "actions.html#articles",
+    "title": "Actions",
+    "section": "",
+    "text": "By subscribing to alerts and monitoring local news sources, it is possible to create an inventory of citations and use of open data."
+  },
+  {
+    "objectID": "actions.html#data-narratives-and-visualizations",
+    "href": "actions.html#data-narratives-and-visualizations",
+    "title": "Actions",
+    "section": "",
+    "text": "Data stories created by departments that show current conditions and the results of program actions"
+  },
+  {
+    "objectID": "actions.html#standards-and-practices",
+    "href": "actions.html#standards-and-practices",
+    "title": "Actions",
+    "section": "",
+    "text": "Data portal as the standard\nData catalog – inclusive (GIS, community)\nData quality"
+  },
+  {
+    "objectID": "actions.html#support",
+    "href": "actions.html#support",
+    "title": "Actions",
+    "section": "",
+    "text": "Support platform\nCommunication channels\nOffice hours"
+  },
+  {
+    "objectID": "actions.html#education-content",
+    "href": "actions.html#education-content",
+    "title": "Actions",
+    "section": "",
+    "text": "Articles\nVideos\nCase studies"
+  },
+  {
+    "objectID": "actions.html#providing-context",
+    "href": "actions.html#providing-context",
+    "title": "Actions",
+    "section": "",
+    "text": "Examples of how to add context to include:\n\nNew datasets created through public information requests\nNew datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority\nNew datasets created from legal settlements.\nNew datasets created from multiple organizations that share ownership of source data and require coordination.\nNew datasets created (crowd-sourced) by community members for data not collected by local government organizations.\nNew datasets initiated from audit recommendations\nNew datasets initiated from department initiatives\nCreated to aid emergency response"
+  },
+  {
+    "objectID": "articles.html",
+    "href": "articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information (Shaharudin et al. 2023) and creating feedback loops to government (Wilson and Chakraborty 2019). While new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone (Felle 2016) and depend on access to devices, internet, and subscriptions to news services.\n\n\n\n\n Back to topReferences\n\nFelle, Tom. 2016. “Digital Watchdogs? Data Reporting and the News Media’s Traditional ‘Fourth Estate’ Function.” Journalism 17 (1): 85–96. https://doi.org/10.1177/1464884915593246.\n\n\nShaharudin, Ashraf, Bastiaan Van Loenen, and Marijn Janssen. 2023. “Towards a Common Definition of Open Data Intermediaries.” Digital Government: Research and Practice 4 (2): 1–21. https://doi.org/10.1145/3585537.\n\n\nWilson, Bev, and Arnab Chakraborty. 2019. “Planning Smart(er) Cities: The Promise of Civic Technology.” Journal of Urban Technology 26 (4): 29–51. https://doi.org/10.1080/10630732.2019.1631097."
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Open Data Glossary",
+    "section": "",
+    "text": "I\nIntemediary\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "measures.html",
+    "href": "measures.html",
+    "title": "Measures",
+    "section": "",
+    "text": "Measures recommended to track organizational actions and signals of public use and engagement with open data.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "reporting.html",
+    "href": "reporting.html",
+    "title": "Reporting",
+    "section": "",
+    "text": "Reporting provides programs the opportunity to link actions to outcomes."
+  },
+  {
+    "objectID": "reporting.html#annual-reporting",
+    "href": "reporting.html#annual-reporting",
+    "title": "Reporting",
+    "section": "Annual Reporting",
+    "text": "Annual Reporting\nOpen data policies can be a driver for reporting by including them as a requirement. For example the open data policy(Baton Rouge and Parish of East Baton Rouge, n.d.) for the City of Baton Rouge and Parish of East Baton Rouge requires on annual reporting that “includes an assessment of progress toward achievement of the goals of the City-Parish’s Open Data BR program (under which all City-Parish open data related activities occur), an assessment of how the City-Parish’s work has furthered or will further the City-Parish’s programmatic priorities, and a description and publication timeline for datasets envisioned to be published by the City-Parish in the following year”. Since 2018, they have published annual reports, including some reports published directly on one of their open data platforms."
+  },
+  {
+    "objectID": "reporting.html#performance",
+    "href": "reporting.html#performance",
+    "title": "Reporting",
+    "section": "Performance",
+    "text": "Performance\nPerformance dashboards provide information about program priorities as well the results."
+  },
+  {
+    "objectID": "reporting.html#web-analytics",
+    "href": "reporting.html#web-analytics",
+    "title": "Reporting",
+    "section": "Web Analytics",
+    "text": "Web Analytics\nThe cumulative (lifetime) views, downloads, shares, embeds, and programmatic requests to datasets are provided by default by platforms on individual metadata pages and asset inventories. Programs may also track analytics on a daily basis to show use over time.\nView examples of reports."
   }
 ]

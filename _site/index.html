@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hello – Open Data Action Toolkit</title>
+<title>Purpose – Open Data Public Measures Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d390f6b1bb233dafbd59a397b5af9ca7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-76284105150683a3ba83139f3d443353.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Open Data Action Toolkit</span>
+    <span class="navbar-title">Open Data Public Measures Toolkit</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,12 +100,38 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./analytics.html"> 
+<span class="menu-text">Analytics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./engagement.html"> 
+<span class="menu-text">Engagement</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./actions.html"> 
+<span class="menu-text">Actions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./reporting.html"> 
+<span class="menu-text">Reporting</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/aliciatb/open-data-action-toolkit">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -116,8 +145,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#activity-measures" id="toc-activity-measures" class="nav-link active" data-scroll-target="#activity-measures">Activity Measures</a></li>
-  <li><a href="#action-opportunities" id="toc-action-opportunities" class="nav-link" data-scroll-target="#action-opportunities">Action Opportunities</a></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link active" data-scroll-target="#measures">Measures</a></li>
+  <li><a href="#actions" id="toc-actions" class="nav-link" data-scroll-target="#actions">Actions</a></li>
+  <li><a href="#engagement" id="toc-engagement" class="nav-link" data-scroll-target="#engagement">Engagement</a></li>
+  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a></li>
   </ul>
 </nav>
     </div>
@@ -126,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hello</h1>
+<h1 class="title">Purpose</h1>
 </div>
 
 
@@ -143,31 +174,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This website provides a toolkit for evaluating open data activity in an area and how to contribute to community efforts to improve local information. The list below provides examples of activity measures and action opportunities.</p>
-<section id="activity-measures" class="level2">
-<h2 class="anchored" data-anchor-id="activity-measures">Activity Measures</h2>
-<ul>
-<li><p>Events</p></li>
-<li><p>Active civic technology and community organizations</p></li>
-<li><p>Open data referenced in local news and blogs</p></li>
-<li><p>Open data analysis products on local government and community organization websites</p></li>
-<li><p>New and frequently updated datasets on open data portals</p></li>
-</ul>
+<p>The open data actions and measures toolkit provides guidance on how to measure organizational actions and public engagement with open data to present a cohesive view of the activity and use of open data in a community. The actions and measures shared in the toolkit were identified from case study research of 3 local governments in the U.S. and from a literature review on open data use, participation, engagement, and user-friendly data products.</p>
+<p>The examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.</p>
+<section id="measures" class="level1">
+<h1>Measures</h1>
+<p>Common ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.</p>
+<p>Downloads of data and requests to API (application programming interface) endpoints for datasets are other ways that the public use open data, often with analysis and coding tools that ease the connection to data and enable automatic refreshes.</p>
+<p>Learn how to access <a href="./analytics.html">web analytics</a> from open data portal platforms.</p>
 </section>
-<section id="action-opportunities" class="level2">
-<h2 class="anchored" data-anchor-id="action-opportunities">Action Opportunities</h2>
-<ul>
-<li><p>Attend or volunteer at datathon and hackthon events</p></li>
-<li><p>Attend meetings (council, community organizations, neighborhood associations)</p></li>
-<li><p>Join civic technology organizations</p></li>
-<li><p>Opportunities at local governments and community organizations</p></li>
-<li><p>Public information requests for missing and incomplete data</p></li>
-</ul>
+<section id="actions" class="level1">
+<h1>Actions</h1>
+<p>Actions include the creation of data products (new data, maps, applications, dashboards, narrative, visualizations, articles) and enablement acts (support, communications, events, community coordination, promotion) by open data programs and other members of the community to empower the public to use open data meaningfully.</p>
+<p>View types of <a href="./actions.html">actions</a> that demonstrate intent to enable and empower the public.</p>
+</section>
+<section id="engagement" class="level1">
+<h1>Engagement</h1>
+<p>Other signals of open data activity in the community include attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.</p>
+<p>View ways of tracking <a href="./engagement.html">engagement</a> with open data by the public, intermediaries, and community advocates.</p>
+</section>
+<section id="reporting" class="level1">
+<h1>Reporting</h1>
+<p>Reporting is an important way to link organizational actions with measures of success. Annual reports, performance dashboards, and blog posts provide opportunities to explain why an action is important.</p>
+<p>View recommendations for <a href="./reporting.html">reporting</a> contents and cadence as well as examples by programs and community organizations.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -569,6 +602,26 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2026, Alicia Brown</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/aliciatb/open-data-action-toolkit">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

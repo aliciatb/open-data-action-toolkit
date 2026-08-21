@@ -1,0 +1,71 @@
+---
+title: "Actions"
+bibliography: references.bib
+link-citations: true
+---
+
+# Organizational Actions
+
+## Datasets
+
+New datasets may be tracked from asset inventories, program announcements, and press releases.
+
+## Applications
+
+Applications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.
+
+## Map Applications
+
+Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.
+
+## [Articles](articles.qmd)
+
+By subscribing to alerts and monitoring local news sources, it is possible to create an inventory of citations and use of open data.
+
+## Data Narratives and Visualizations
+
+Data stories created by departments that show current conditions and the results of program actions
+
+## Standards and Practices
+
+- Data portal as the standard
+
+- Data catalog – inclusive (GIS, community)
+
+- Data quality
+
+## Support
+
+- Support platform
+
+- Communication channels
+
+- Office hours
+
+## Education Content
+
+- Articles
+
+- Videos
+
+- Case studies
+
+## Providing Context
+
+Examples of how to add context to include:
+
+- New datasets created through public information requests
+
+- New datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority
+
+- New datasets created from legal settlements.
+
+- New datasets created from multiple organizations that share ownership of source data and require coordination.
+
+- New datasets created (crowd-sourced) by community members for data not collected by local government organizations.
+
+- New datasets initiated from audit recommendations
+
+- New datasets initiated from department initiatives
+
+- Created to aid emergency response

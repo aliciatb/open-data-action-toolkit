@@ -2,17 +2,44 @@ project:
   type: website
 
 website:
-  title: "Open Data Action Toolkit"
+  title: "Open Data Public Measures Toolkit"
+  page-navigation: true
+  back-to-top-navigation: true
+  
   navbar:
+    background: primary
+    search: true
+    reader-mode: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+      - text: Analytics
+        href: analytics.qmd
+      - text: Engagement
+        href: engagement.qmd
+      - text: Actions
+        href: actions.qmd
+      - text: Reporting
+        href: reporting.qmd
+      - text: About
+        href: about.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/aliciatb/open-data-action-toolkit
+  page-footer:
+      background: light
+      left: "Copyright 2026, Alicia Brown" 
+      right: 
+        - icon: github
+          href: https://github.com/aliciatb/open-data-action-toolkit
 
 format:
   html:
+    respect-user-color-scheme: true
     theme:
-      - journal
+      - pulse
       - brand
     css: styles.css
     toc: true
