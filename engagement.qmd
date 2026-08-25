@@ -18,11 +18,11 @@ Engagement with open data can be measured through:
 
 The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information [@shaharudin2023] and creating feedback loops to government [@wilson2019].
 
-### Data Sources
+### Measures
 
-- Google alerts to monitoring local news and blogs
+Article measures include publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article. The presence of articles demonstrates accessibility of department data for local reporting and public interest.
 
-While new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone [@felle2016] and depend on access to devices, internet, and subscriptions to news services.
+View methods for tracking and reporting on [articles](articles.qmd).
 
 ## Events
 

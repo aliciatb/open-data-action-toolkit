@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Purpose",
     "section": "",
-    "text": "The open data actions and measures toolkit provides guidance on how to measure organizational actions and public engagement with open data to present a cohesive view of the activity and use of open data in a community. The actions and measures shared in the toolkit were identified from case study research of 3 local governments in the U.S. and from a literature review on open data use, participation, engagement, and user-friendly data products.\nThe examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.\n\nMeasures\nCommon ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.\nDownloads of data and requests to API (application programming interface) endpoints for datasets are other ways that the public use open data, often with analysis and coding tools that ease the connection to data and enable automatic refreshes.\nLearn how to access web analytics from open data portal platforms.\n\n\nActions\nActions include the creation of data products (new data, maps, applications, dashboards, narrative, visualizations, articles) and enablement acts (support, communications, events, community coordination, promotion) by open data programs and other members of the community to empower the public to use open data meaningfully.\nView types of actions that demonstrate intent to enable and empower the public.\n\n\nEngagement\nOther signals of open data activity in the community include attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.\nView ways of tracking engagement with open data by the public, intermediaries, and community advocates.\n\n\nReporting\nReporting is an important way to link organizational actions with measures of success. Annual reports, performance dashboards, and blog posts provide opportunities to explain why an action is important.\nView recommendations for reporting contents and cadence as well as examples by programs and community organizations.\n\n\n\n\n Back to top"
+    "text": "The open data actions and measures toolkit provides guidance on how to measure organizational actions and public engagement with open data to present a cohesive view of the activity and use of open data in a community. The actions and measures shared in the toolkit were identified from case study research of 3 local governments in the U.S. and from a literature review on open data use, participation, engagement, and user-friendly data products.\nThe examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.\n\nData Portal Analytics\nCommon ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.\nDownloads of data and requests to API (application programming interface) endpoints for datasets are other ways that the public use open data, often with analysis and coding tools that ease the connection to data and enable automatic refreshes.\nLearn how to access web analytics from open data portal platforms.\n\n\nOrganizational Actions\nThe creation of new data products (datasets, maps, applications, dashboards, narrative, visualizations, initiative websites), educational content, support channels, and participation in events provide measures of investment in open data by programs and organizations.\nView types of program and organizational actions.\n\n\nCommunity Engagement\nOther signals of open data activity in the community include articles, attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.\nView ways of tracking engagement with open data by the public, intermediaries, and community advocates.\n\n\nReporting\nReporting is an important way to link organizational actions with measures of success. Annual reports, performance dashboards, and blog posts provide opportunities to explain why an action is important.\nView recommendations for reporting contents and cadence as well as examples by programs and community organizations.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "engagement.html",
@@ -32,7 +32,7 @@
     "href": "engagement.html#articles",
     "title": "Engagement",
     "section": "Articles",
-    "text": "Articles\nThe potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information (Shaharudin et al. 2023) and creating feedback loops to government (Wilson and Chakraborty 2019).\n\nData Sources\n\nGoogle alerts to monitoring local news and blogs\n\nWhile new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone (Felle 2016) and depend on access to devices, internet, and subscriptions to news services."
+    "text": "Articles\nThe potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information (Shaharudin et al. 2023) and creating feedback loops to government (Wilson and Chakraborty 2019).\n\nMeasures\nArticle measures include publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article. The presence of articles demonstrates accessibility of department data for local reporting and public interest.\nView methods for tracking and reporting on articles."
   },
   {
     "objectID": "engagement.html#events",
@@ -81,7 +81,7 @@
     "href": "actions.html",
     "title": "Actions",
     "section": "",
-    "text": "New datasets may be tracked from asset inventories, program announcements, and press releases.\n\n\n\nApplications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.\n\n\n\nMaps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.\n\n\n\nBy subscribing to alerts and monitoring local news sources, it is possible to create an inventory of citations and use of open data.\n\n\n\nData stories created by departments that show current conditions and the results of program actions\n\n\n\n\nData portal as the standard\nData catalog – inclusive (GIS, community)\nData quality\n\n\n\n\n\nSupport platform\nCommunication channels\nOffice hours\n\n\n\n\n\nArticles\nVideos\nCase studies\n\n\n\n\nExamples of how to add context to include:\n\nNew datasets created through public information requests\nNew datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority\nNew datasets created from legal settlements.\nNew datasets created from multiple organizations that share ownership of source data and require coordination.\nNew datasets created (crowd-sourced) by community members for data not collected by local government organizations.\nNew datasets initiated from audit recommendations\nNew datasets initiated from department initiatives\nCreated to aid emergency response"
+    "text": "New datasets may be tracked from asset inventories, program announcements, and press releases.\n\n\n\nApplications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.\n\n\n\nMaps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.\n\n\n\nData stories created by departments that show current conditions and the results of program actions\n\n\n\n\nData portal as the standard\nData catalog – inclusive (GIS, community)\nData quality\n\n\n\n\n\nSupport platform\nCommunication channels\nOffice hours\n\n\n\n\n\nArticles\nVideos\nCase studies\n\n\n\n\nExamples of how to add context to include:\n\nNew datasets created through public information requests\nNew datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority\nNew datasets created from legal settlements.\nNew datasets created from multiple organizations that share ownership of source data and require coordination.\nNew datasets created (crowd-sourced) by community members for data not collected by local government organizations.\nNew datasets initiated from audit recommendations\nNew datasets initiated from department initiatives\nCreated to aid emergency response"
   },
   {
     "objectID": "actions.html#datasets",
@@ -103,13 +103,6 @@
     "title": "Actions",
     "section": "",
     "text": "Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs."
-  },
-  {
-    "objectID": "actions.html#articles",
-    "href": "actions.html#articles",
-    "title": "Actions",
-    "section": "",
-    "text": "By subscribing to alerts and monitoring local news sources, it is possible to create an inventory of citations and use of open data."
   },
   {
     "objectID": "actions.html#data-narratives-and-visualizations",
@@ -151,7 +144,28 @@
     "href": "articles.html",
     "title": "Articles",
     "section": "",
-    "text": "The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information (Shaharudin et al. 2023) and creating feedback loops to government (Wilson and Chakraborty 2019). While new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone (Felle 2016) and depend on access to devices, internet, and subscriptions to news services.\nThe following screenshot of a Power BI report demonstrates the number of articles and blog posts related to open data, data reporting, and events initiating open government transparency between 2009 and 2025.\n\n\n\n\n\n Back to topReferences\n\nFelle, Tom. 2016. “Digital Watchdogs? Data Reporting and the News Media’s Traditional ‘Fourth Estate’ Function.” Journalism 17 (1): 85–96. https://doi.org/10.1177/1464884915593246.\n\n\nShaharudin, Ashraf, Bastiaan Van Loenen, and Marijn Janssen. 2023. “Towards a Common Definition of Open Data Intermediaries.” Digital Government: Research and Practice 4 (2): 1–21. https://doi.org/10.1145/3585537.\n\n\nWilson, Bev, and Arnab Chakraborty. 2019. “Planning Smart(er) Cities: The Promise of Civic Technology.” Journal of Urban Technology 26 (4): 29–51. https://doi.org/10.1080/10630732.2019.1631097."
+    "text": "Create google alerts to monitor local news and blogs that reference data portal URL, departments, and community organizations.\nReview referrers to data assets from web analytics reports.\nManually monitor local news and blogs."
+  },
+  {
+    "objectID": "articles.html#data-sources",
+    "href": "articles.html#data-sources",
+    "title": "Articles",
+    "section": "",
+    "text": "Create google alerts to monitor local news and blogs that reference data portal URL, departments, and community organizations.\nReview referrers to data assets from web analytics reports.\nManually monitor local news and blogs."
+  },
+  {
+    "objectID": "articles.html#data-methods",
+    "href": "articles.html#data-methods",
+    "title": "Articles",
+    "section": "Data Methods",
+    "text": "Data Methods\nThe City of San Francisco tracks citations to open data and includes notes about the articles and tools in a spreadsheet. Citation tools, like Zotero, may also be used to organize articles.\nThe following screenshot of a Power BI report demonstrates the number of articles and blog posts related to open data, data reporting, and events initiating open government transparency between 2009 and 2025. Including notes with links to data sources and newspaper can be used to link articles to data products and provide insights to department data publishers on the use of their data."
+  },
+  {
+    "objectID": "articles.html#equitable-access-to-news",
+    "href": "articles.html#equitable-access-to-news",
+    "title": "Articles",
+    "section": "Equitable Access to News",
+    "text": "Equitable Access to News\nWhile new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone (Felle 2016) and depend on access to devices, internet, and subscriptions to news services."
   },
   {
     "objectID": "glossary.html",

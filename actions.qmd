@@ -18,10 +18,6 @@ Applications may be found on data catalogs as external tool, code repositories, 
 
 Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.
 
-## [Articles](articles.qmd)
-
-By subscribing to alerts and monitoring local news sources, it is possible to create an inventory of citations and use of open data.
-
 ## Data Narratives and Visualizations
 
 Data stories created by departments that show current conditions and the results of program actions

@@ -6,7 +6,7 @@ The open data actions and measures toolkit provides guidance on how to measure o
 
 The examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.
 
-# Measures
+# Data Portal Analytics
 
 Common ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.
 
@@ -14,15 +14,15 @@ Downloads of data and requests to API (application programming interface) endpoi
 
 Learn how to access [web analytics](analytics.qmd) from open data portal platforms.
 
-# Actions
+# Organizational Actions
 
-Actions include the creation of data products (new data, maps, applications, dashboards, narrative, visualizations, articles) and enablement acts (support, communications, events, community coordination, promotion) by open data programs and other members of the community to empower the public to use open data meaningfully.
+The creation of new data products (datasets, maps, applications, dashboards, narrative, visualizations, initiative websites), educational content, support channels, and participation in events provide measures of investment in open data by programs and organizations.
 
-View types of [actions](actions.qmd) that demonstrate intent to enable and empower the public.
+View types of program and organizational [actions](actions.qmd).
 
-# Engagement
+# Community Engagement
 
-Other signals of open data activity in the community include attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.
+Other signals of open data activity in the community include [articles](articles.qmd), attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.
 
 View ways of tracking [engagement](engagement.qmd) with open data by the public, intermediaries, and community advocates.
 
