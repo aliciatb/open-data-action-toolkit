@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -177,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data. Common data portal providers that publish web analytic information include Tyler Technologies<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and Esri<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.</p>
 <section id="data-catalogs" class="level2">
 <h2 class="anchored" data-anchor-id="data-catalogs">Data Catalogs</h2>
 <p>Example data catalogs include:</p>
@@ -201,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="web-analytics" class="level2">
 <h2 class="anchored" data-anchor-id="web-analytics">Web Analytics</h2>
-<p>Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface).</p>
+<p>Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use <span class="citation" data-cites="tylertechnologies2022">(<a href="#ref-tylertechnologies2022" role="doc-biblioref">Tyler Technologies 2022</a>)</span>, <span class="citation" data-cites="esri">(<a href="#ref-esri" role="doc-biblioref">Esri, n.d.</a>)</span>.</p>
 <section id="overview-pages" class="level3">
 <h3 class="anchored" data-anchor-id="overview-pages">Overview Pages</h3>
 <p>Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the <a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data">Issued Construction Permits</a> on the Austin data portal.</p>
@@ -215,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="apis-application-programming-interfaces" class="level3">
 <h3 class="anchored" data-anchor-id="apis-application-programming-interfaces">APIs (Application programming interfaces)</h3>
-<p>The Tyler Technologies <a href="https://dev.socrata.com/docs/other/discovery#?route=overview--purpose">Discovery API</a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.</p>
+<p>The Tyler Technologies Discovery API <span class="citation" data-cites="socrata">(<a href="#ref-socrata" role="doc-biblioref"><em>Socrata Discovery API</em>, n.d.</a>)</span> provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.</p>
 <p>Example API endpoint with parameters to retrieve all published data assets by data portal domain:</p>
 <ul>
 <li><p>Austin, Texas</p>
@@ -259,18 +278,21 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+
 </section>
 </section>
 
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Tyler Technologies. (2022, December 20). <em>Data &amp; Insights Site Analytics</em>. Data &amp; Insights Client Center. <a href="https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics" class="uri">https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p><em>Monitor item usage—ArcGIS Online Help | Documentation</em>. (n.d.). Retrieved August 16, 2026, from <a href="https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm" class="uri">https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p><em>Socrata Discovery API</em>. (n.d.). Retrieved August 18, 2026, from <a href="https://dev.socrata.com/docs/other/discovery#?route=overview--purpose" class="uri">https://dev.socrata.com/docs/other/discovery#?route=overview--purpose</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-esri" class="csl-entry" role="listitem">
+Esri. n.d. <em>Monitor Item Usage<span></span>ArcGIS Online Help</em>. <a href="https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm">https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm</a>.
+</div>
+<div id="ref-socrata" class="csl-entry" role="listitem">
+<em>Socrata Discovery API</em>. n.d. <a href="https://dev.socrata.com/docs/other/discovery#?route=overview--purpose">https://dev.socrata.com/docs/other/discovery#?route=overview--purpose</a>.
+</div>
+<div id="ref-tylertechnologies2022" class="csl-entry" role="listitem">
+Tyler Technologies. 2022. <em>Data &amp; Insights Site Analytics</em>. <a href="https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics">https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

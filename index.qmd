@@ -2,32 +2,30 @@
 title: "Purpose"
 ---
 
-The open data actions and measures toolkit provides guidance on how to measure organizational actions and public engagement with open data to present a cohesive view of the activity and use of open data in a community. The actions and measures shared in the toolkit were identified from case study research of 3 local governments in the U.S. and from a literature review on open data use, participation, engagement, and user-friendly data products. 
+The open data action toolkit provides guidance on how to measure organizational actions and public engagement with open data. The actions and measures shared in the toolkit were identified from a review of existing research on open data use and measures, supplemented with observations from case studies of 3 local governments in the United States.
 
-The examples provided in the toolkit represent the data portals, products, and measures from organizations who participated in the case study research of the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco.
-
-# Data Portal Analytics
-
-Common ways that people use open data is by viewing a dataset, map, dashboard, visualization, news article, or an application. Measures of these types of activities are called page views or view counts.
-
-Downloads of data and requests to API (application programming interface) endpoints for datasets are other ways that the public use open data, often with analysis and coding tools that ease the connection to data and enable automatic refreshes.
-
-Learn how to access [web analytics](analytics.qmd) from open data portal platforms.
+The examples provided in the toolkit are based on the data, products, reporting, and press coverage of the organizations who participated in the case study research of the [City of Austin](https://www.austintexas.gov), the [City of Baton Rouge and Parish of East Baton Rouge](https://www.brla.gov), and the [City and County of San Francisco](https://www.sf.gov).
 
 # Organizational Actions
 
-The creation of new data products (datasets, maps, applications, dashboards, narrative, visualizations, initiative websites), educational content, support channels, and participation in events provide measures of investment in open data by programs and organizations.
+The toolkit first provides examples of actions taken by organizations to support open data use, such as by creatting new data products (datasets, maps, applications, dashboards, narrative, visualizations, initiative websites), educational content, support channels, and opportunities for community interactions.
 
-View types of program and organizational [actions](actions.qmd).
+Learn more about organizational [actions](actions.qmd).
 
-# Community Engagement
+# Data Portal Measures
 
-Other signals of open data activity in the community include [articles](articles.qmd), attendance at events, views of tutorials, knowledge base articles, and videos, communications, support requests, public information requests, and council and organization mandates for new data.
+The toolkit then demonstrates how to measure direct use of data and other assets published on data portals. Measures include views of datasets, maps, dashboards, visualizations, and data stories. Downloads of data and requests to API (application programming interface) endpoints for datasets are other measures that are available from data portals. Additional context from asset metadata provides another layer of analysis available to evaluate the completeness and usefulness of overall data catalogs.
 
-View ways of tracking [engagement](engagement.qmd) with open data by the public, intermediaries, and community advocates.
+Learn how to access [web analytics](analytics.qmd) from data portals.
+
+# Public Engagement Measures
+
+The toolkit also highlight signals of public engagement that include articles from local news organizations and blogs, events featuring open data, questions for data owners, support requests, public information requests, engagement with support videos and content, and resolutions and directives for publishing new data in response to public demand or government transparency on emerging community issues.
+
+Learn more about monitoring public [engagement](engagement.qmd) with open data.
 
 # Reporting
 
-Reporting is an important way to link organizational actions with measures of success. Annual reports, performance dashboards, and blog posts provide opportunities to explain why an action is important.
+Finally, the toolkit shows how regular reporting enables organizations to link government and community priorities with actions and measures of progress.
 
-View recommendations for [reporting](reporting.qmd) contents and cadence as well as examples by programs and community organizations.
+View examples of [reporting](reporting.qmd), including annual reports, performance dashboards, and blog posts.

@@ -22,6 +22,10 @@ Maps, map applications, and hub sites developed on ArcGIS Online may be found in
 
 Data stories created by departments that show current conditions and the results of program actions
 
+## Initiative Web Sites
+
+Websites created to provide narrative and data.
+
 ## Standards and Practices
 
 - Data portal as the standard

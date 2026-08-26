@@ -4,11 +4,7 @@ bibliography: references.bib
 link-citations: true
 ---
 
-The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data. Common data portal providers that publish web analytic information include Tyler Technologies[^1] and Esri[^2].
-
-[^1]: Tyler Technologies. (2022, December 20). *Data & Insights Site Analytics*. Data & Insights Client Center. <https://support.socrata.com/hc/en-us/articles/360045612793-Data-Insights-Site-Analytics>
-
-[^2]: *Monitor item usage—ArcGIS Online Help \| Documentation*. (n.d.). Retrieved August 16, 2026, from <https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm>
+The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.
 
 ## Data Catalogs
 
@@ -34,7 +30,7 @@ Example data catalogs include:
 
 ## Web Analytics
 
-Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface).
+Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use [@tylertechnologies2022], [@esri].
 
 ### Overview Pages
 
@@ -46,9 +42,7 @@ In the "About" section, the lifetime views and downloads are shown, which for th
 
 ### APIs (Application programming interfaces)
 
-The Tyler Technologies [Discovery API](https://dev.socrata.com/docs/other/discovery#?route=overview--purpose)[^3] provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.
-
-[^3]: *Socrata Discovery API*. (n.d.). Retrieved August 18, 2026, from <https://dev.socrata.com/docs/other/discovery#?route=overview--purpose>
+The Tyler Technologies Discovery API [@socrata] provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.
 
 Example API endpoint with parameters to retrieve all published data assets by data portal domain:
 
