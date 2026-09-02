@@ -13,14 +13,36 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Analytics
-        href: analytics.qmd
-      - text: Engagement
-        href: engagement.qmd
       - text: Actions
-        href: actions.qmd
+        menu:
+          - actions.qmd
+          - text: Data Products
+            href: data_products.qmd
+          - text: Support
+            href: support.qmd
+          - text: Events
+            href: events.qmd
+          - text: Policy & Standards
+            href: policy_standards.qmd
+      - text: Data Portal Measures
+        menu: 
+          - data_portal_measures.qmd
+          - text: Web Analytics
+            href: analytics.qmd
+          - text: Catalog Quality
+            href: catalog_measures.qmd
+      - text: Engagement
+        menu: 
+          - engagement.qmd
+          - text: Articles
+            href: articles.qmd
+          - text: Public Activity
+            href: public_activity.qmd
       - text: Reporting
-        href: reporting.qmd
+        menu:
+          - reporting.qmd
+          - text: Measures Catalog
+            href: measures.qmd
       - text: About
         href: about.qmd
     tools:

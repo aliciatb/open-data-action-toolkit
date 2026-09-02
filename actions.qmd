@@ -1,71 +1,37 @@
 ---
-title: "Actions"
+title: "Organizational Actions"
 bibliography: references.bib
 link-citations: true
 ---
 
-# Organizational Actions
+Actions taken to support the use of open data provide indications of commitment by organizations to users.
 
-## Datasets
+## Data Products
 
-New datasets may be tracked from asset inventories, program announcements, and press releases.
+The creation of new datasets may represent the fulfillment of public requests [@mergel2018] or signify successful collaboration with departments to publish data that demonstrates their work on behalf of the public [@johnson2016].
 
-## Applications
-
-Applications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.
-
-## Map Applications
-
-Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.
-
-## Data Narratives and Visualizations
-
-Data stories created by departments that show current conditions and the results of program actions
-
-## Initiative Web Sites
-
-Websites created to provide narrative and data.
-
-## Standards and Practices
-
-- Data portal as the standard
-
-- Data catalog – inclusive (GIS, community)
-
-- Data quality
+Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog [@schwoerer2022]. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data [@nahon2015].
 
 ## Support
 
-- Support platform
+## Events
 
-- Communication channels
+- Hackathons and datathons
 
-- Office hours
+- Open data events
 
-## Education Content
+## Policy and Standards
 
-- Articles
+- Council resolutions
 
-- Videos
+- Executive directives
 
-- Case studies
+- Recommendations
 
-## Providing Context
+- Legal mandates
 
-Examples of how to add context to include:
+- Budget support
 
-- New datasets created through public information requests
+- Technology standards
 
-- New datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority
-
-- New datasets created from legal settlements.
-
-- New datasets created from multiple organizations that share ownership of source data and require coordination.
-
-- New datasets created (crowd-sourced) by community members for data not collected by local government organizations.
-
-- New datasets initiated from audit recommendations
-
-- New datasets initiated from department initiatives
-
-- Created to aid emergency response
+## 

@@ -1,7 +1,0 @@
----
-title: "Portals"
-bibliography: references.bib
-link-citations: true
----
-
-To enable the collection of data about actions, programs should consider how they can attach metadata to datasets and data products that explain what initiated its creation and how it supports department and community priorities. and services and priorities. Program should also try to classify other actions like events, enablement content, questions, and support requests within their systems of record so that data can also be shared publicly.

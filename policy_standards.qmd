@@ -1,0 +1,21 @@
+---
+title: "Policies and Standards"
+bibliography: references.bib
+link-citations: true
+---
+
+## Resolutions, Directives, and Recommendations
+
+- Council resolutions
+
+- Budget support
+
+- Audit findings and recommendations
+
+## Technology Standards
+
+- Data portal as the standard
+
+- Data catalog – inclusive (GIS, community)
+
+- Data quality

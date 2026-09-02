@@ -1,0 +1,25 @@
+---
+title: "Data Products"
+bibliography: references.bib
+link-citations: true
+---
+
+## Datasets
+
+New datasets may be tracked from asset inventories, program announcements, and press releases.
+
+## Applications
+
+Applications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.
+
+## Map Applications
+
+Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.
+
+## Data Narratives and Visualizations
+
+Data stories created by departments that show current conditions and the results of program actions
+
+## Initiative Web Sites
+
+Websites created to provide narrative and data.

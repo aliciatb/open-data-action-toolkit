@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Actions – Open Data Public Measures Toolkit</title>
+<title>Organizational Actions – Open Data Public Measures Toolkit</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -99,22 +118,86 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./analytics.html"> 
-<span class="menu-text">Analytics</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-actions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Actions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-actions">    
+        <li>
+    <a class="dropdown-item" href="./actions.html">
+ <span class="dropdown-text">Organizational Actions</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./engagement.html"> 
-<span class="menu-text">Engagement</span></a>
+        <li>
+    <a class="dropdown-item" href="./data_products.html">
+ <span class="dropdown-text">Data Products</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./actions.html" aria-current="page"> 
-<span class="menu-text">Actions</span></a>
+        <li>
+    <a class="dropdown-item" href="./support.html">
+ <span class="dropdown-text">Support</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./reporting.html"> 
-<span class="menu-text">Reporting</span></a>
+        <li>
+    <a class="dropdown-item" href="./events.html">
+ <span class="dropdown-text">Events</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./policy_standards.html">
+ <span class="dropdown-text">Policy &amp; Standards</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-portal-measures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data Portal Measures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-portal-measures">    
+        <li>
+    <a class="dropdown-item" href="./data_portal_measures.html">
+ <span class="dropdown-text">Data Portal Measures</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./analytics.html">
+ <span class="dropdown-text">Web Analytics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./catalog_measures.html">
+ <span class="dropdown-text">Catalog Quality</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-engagement" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Engagement</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-engagement">    
+        <li>
+    <a class="dropdown-item" href="./engagement.html">
+ <span class="dropdown-text">Engagement</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./articles.html">
+ <span class="dropdown-text">Articles</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./public_activity.html">
+ <span class="dropdown-text">Public Activity</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reporting" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Reporting</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-reporting">    
+        <li>
+    <a class="dropdown-item" href="./reporting.html">
+ <span class="dropdown-text">Reporting</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./measures.html">
+ <span class="dropdown-text">Measures Catalog</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -145,18 +228,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#organizational-actions" id="toc-organizational-actions" class="nav-link active" data-scroll-target="#organizational-actions">Organizational Actions</a>
-  <ul class="collapse">
-  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
-  <li><a href="#map-applications" id="toc-map-applications" class="nav-link" data-scroll-target="#map-applications">Map Applications</a></li>
-  <li><a href="#data-narratives-and-visualizations" id="toc-data-narratives-and-visualizations" class="nav-link" data-scroll-target="#data-narratives-and-visualizations">Data Narratives and Visualizations</a></li>
-  <li><a href="#initiative-web-sites" id="toc-initiative-web-sites" class="nav-link" data-scroll-target="#initiative-web-sites">Initiative Web Sites</a></li>
-  <li><a href="#standards-and-practices" id="toc-standards-and-practices" class="nav-link" data-scroll-target="#standards-and-practices">Standards and Practices</a></li>
+  <li><a href="#data-products" id="toc-data-products" class="nav-link active" data-scroll-target="#data-products">Data Products</a></li>
   <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a></li>
-  <li><a href="#education-content" id="toc-education-content" class="nav-link" data-scroll-target="#education-content">Education Content</a></li>
-  <li><a href="#providing-context" id="toc-providing-context" class="nav-link" data-scroll-target="#providing-context">Providing Context</a></li>
-  </ul></li>
+  <li><a href="#events" id="toc-events" class="nav-link" data-scroll-target="#events">Events</a></li>
+  <li><a href="#policy-and-standards" id="toc-policy-and-standards" class="nav-link" data-scroll-target="#policy-and-standards">Policy and Standards</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -165,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Actions</h1>
+<h1 class="title">Organizational Actions</h1>
 </div>
 
 
@@ -182,71 +258,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="organizational-actions" class="level1">
-<h1>Organizational Actions</h1>
-<section id="datasets" class="level2">
-<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
-<p>New datasets may be tracked from asset inventories, program announcements, and press releases.</p>
-</section>
-<section id="applications" class="level2">
-<h2 class="anchored" data-anchor-id="applications">Applications</h2>
-<p>Applications may be found on data catalogs as external tool, code repositories, or web pages that provide context of their purpose.</p>
-</section>
-<section id="map-applications" class="level2">
-<h2 class="anchored" data-anchor-id="map-applications">Map Applications</h2>
-<p>Maps, map applications, and hub sites developed on ArcGIS Online may be found in data catalogs.</p>
-</section>
-<section id="data-narratives-and-visualizations" class="level2">
-<h2 class="anchored" data-anchor-id="data-narratives-and-visualizations">Data Narratives and Visualizations</h2>
-<p>Data stories created by departments that show current conditions and the results of program actions</p>
-</section>
-<section id="initiative-web-sites" class="level2">
-<h2 class="anchored" data-anchor-id="initiative-web-sites">Initiative Web Sites</h2>
-<p>Websites created to provide narrative and data.</p>
-</section>
-<section id="standards-and-practices" class="level2">
-<h2 class="anchored" data-anchor-id="standards-and-practices">Standards and Practices</h2>
-<ul>
-<li><p>Data portal as the standard</p></li>
-<li><p>Data catalog – inclusive (GIS, community)</p></li>
-<li><p>Data quality</p></li>
-</ul>
+<p>Actions taken to support the use of open data provide indications of commitment by organizations to users.</p>
+<section id="data-products" class="level2">
+<h2 class="anchored" data-anchor-id="data-products">Data Products</h2>
+<p>The creation of new datasets may represent the fulfillment of public requests <span class="citation" data-cites="mergel2018">(<a href="#ref-mergel2018" role="doc-biblioref">Mergel et al. 2018</a>)</span> or signify successful collaboration with departments to publish data that demonstrates their work on behalf of the public <span class="citation" data-cites="johnson2016">(<a href="#ref-johnson2016" role="doc-biblioref">Johnson 2016</a>)</span>.</p>
+<p>Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog <span class="citation" data-cites="schwoerer2022">(<a href="#ref-schwoerer2022" role="doc-biblioref">Schwoerer 2022</a>)</span>. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data <span class="citation" data-cites="nahon2015">(<a href="#ref-nahon2015" role="doc-biblioref">Nahon et al. 2015</a>)</span>.</p>
 </section>
 <section id="support" class="level2">
 <h2 class="anchored" data-anchor-id="support">Support</h2>
+</section>
+<section id="events" class="level2">
+<h2 class="anchored" data-anchor-id="events">Events</h2>
 <ul>
-<li><p>Support platform</p></li>
-<li><p>Communication channels</p></li>
-<li><p>Office hours</p></li>
+<li><p>Hackathons and datathons</p></li>
+<li><p>Open data events</p></li>
 </ul>
 </section>
-<section id="education-content" class="level2">
-<h2 class="anchored" data-anchor-id="education-content">Education Content</h2>
+<section id="policy-and-standards" class="level2">
+<h2 class="anchored" data-anchor-id="policy-and-standards">Policy and Standards</h2>
 <ul>
-<li><p>Articles</p></li>
-<li><p>Videos</p></li>
-<li><p>Case studies</p></li>
+<li><p>Council resolutions</p></li>
+<li><p>Executive directives</p></li>
+<li><p>Recommendations</p></li>
+<li><p>Legal mandates</p></li>
+<li><p>Budget support</p></li>
+<li><p>Technology standards</p></li>
 </ul>
 </section>
-<section id="providing-context" class="level2">
-<h2 class="anchored" data-anchor-id="providing-context">Providing Context</h2>
-<p>Examples of how to add context to include:</p>
-<ul>
-<li><p>New datasets created through public information requests</p></li>
-<li><p>New datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority</p></li>
-<li><p>New datasets created from legal settlements.</p></li>
-<li><p>New datasets created from multiple organizations that share ownership of source data and require coordination.</p></li>
-<li><p>New datasets created (crowd-sourced) by community members for data not collected by local government organizations.</p></li>
-<li><p>New datasets initiated from audit recommendations</p></li>
-<li><p>New datasets initiated from department initiatives</p></li>
-<li><p>Created to aid emergency response</p></li>
-</ul>
+<section id="section" class="level2">
+
+
 
 
 </section>
-</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-johnson2016" class="csl-entry" role="listitem">
+Johnson, Peter. 2016. <span>“Reflecting on the Success of Open Data: How Municipal Government Evaluates Their Open Data Programs.”</span> <em>International Journal of E-Planning Research (IJEPR)</em> 5 (3): 1–12. <a href="https://doi.org/10.4018/IJEPR.2016070101">https://doi.org/10.4018/IJEPR.2016070101</a>.
+</div>
+<div id="ref-mergel2018" class="csl-entry" role="listitem">
+Mergel, Ines, Alexander Kleibrink, and Jens Sörvik. 2018. <span>“Open Data Outcomes: U.s. Cities Between Product and Process Innovation.”</span> <em>Government Information Quarterly</em> 35 (4): 622–32. <a href="https://doi.org/10.1016/j.giq.2018.09.004">https://doi.org/10.1016/j.giq.2018.09.004</a>.
+</div>
+<div id="ref-nahon2015" class="csl-entry" role="listitem">
+Nahon, Karin, Alon Peled, and Jenniver Shkabatur. 2015. <span>“OGD Heartbeat: Cities<span>’</span> Commitment to Open Data.”</span> <em>JeDEM - eJournal of eDemocracy and Open Government</em> 7 (2): 116–36. <a href="https://doi.org/10.29379/jedem.v7i2.410">https://doi.org/10.29379/jedem.v7i2.410</a>.
+</div>
+<div id="ref-schwoerer2022" class="csl-entry" role="listitem">
+Schwoerer, Kayla. 2022. <span>“Whose Open Data Is It Anyway? An Exploratory Study of Open Government Data Relevance and Implications for Democratic Inclusion.”</span> <em>Information Polity</em> 27 (4): 491–515. <a href="https://doi.org/10.3233/IP-220008">https://doi.org/10.3233/IP-220008</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

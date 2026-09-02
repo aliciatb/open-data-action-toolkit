@@ -1,0 +1,27 @@
+---
+title: "Data Catalog Quality"
+bibliography: references.bib
+link-citations: true
+---
+
+To enable the collection of data about actions, programs should consider how they can attach metadata to datasets and data products that explain what initiated its creation and how it supports department and community priorities. and services and priorities. Program should also try to classify other actions like events, enablement content, questions, and support requests within their systems of record so that data can also be shared publicly.
+
+## Providing Context
+
+Examples of how to add context to include:
+
+- New datasets created through public information requests
+
+- New datasets created from actions, resolutions, and directives made by Council, Mayor, or other local government authority
+
+- New datasets created from legal settlements.
+
+- New datasets created from multiple organizations that share ownership of source data and require coordination.
+
+- New datasets created (crowd-sourced) by community members for data not collected by local government organizations.
+
+- New datasets initiated from audit recommendations
+
+- New datasets initiated from department initiatives
+
+- Created to aid emergency response
