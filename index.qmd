@@ -29,3 +29,7 @@ Learn more about monitoring public [engagement](engagement.qmd) with open data b
 Finally, the toolkit shows how regular reporting enables organizations to link government and community priorities with actions and measures of progress.
 
 Learn how to incorporate [reporting requirements](reporting.qmd) and view examples of annual reports, blog posts, analytic dashboards, and a catalog of measures.
+
+# Practical Applications
+
+Learn how to [apply the toolkit](act_now.qmd) and gain awareness of the open data community in your neighborhood.

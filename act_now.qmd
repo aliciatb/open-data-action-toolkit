@@ -1,0 +1,33 @@
+---
+title: "Act Now!"
+bibliography: references.bib
+link-citations: true
+---
+
+## Find your place
+
+An application developed to help new open data programs find examples of how others are using their open data, [OpenDataDiscovereR](https://alicia.shinyapps.io/OpenDataDiscovereR/), uses the Discovery API to search by topic, including location name, and type of open data product.
+
+A map application, [Open Data Policy Viewer](https://arcg.is/jr4Xm0), provides search by location of open data programs, powered by data from the Sunlight Foundation.
+
+Once you have found an open data or open government program:
+
+1.  Register for communications and connect to social media.
+
+2.  Look for press releases to learn about past and upcoming events of interest.
+
+## Find your data reporters
+
+1.  Identify local news websites and blogs in your area and determine if there is a dedicated section for data reporting and projects.
+
+2.  Create news alerts to receive new stories that feature government data.
+
+## Find your community
+
+1.  Look for community organizations featured by articles, press releases, and government websites.
+
+2.  Attend events to learn what type of help and time investment is needed by an organization.
+
+3.  Contribute as you can.
+
+Be reasonable about your capacity and don't over commit yourself. Don't worry about the skills you think you don't have. Organizations will meet you where you are and put you in a position to contribute and learn

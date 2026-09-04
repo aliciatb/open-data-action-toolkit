@@ -1,5 +1,0 @@
----
-title: "events"
-bibliography: references.bib
-link-citations: true
----

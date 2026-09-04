@@ -14,11 +14,15 @@ Datasets can be measured by their value to departments and the public. Dataset c
 
 ## Support
 
+Providing users access through support platforms makes it easy to isolate and report open data requests for help, new data, and detailed public information queries. Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
+
+Online content, communication channels, tutorials, videos, and case studies that enable users are actions that should be reported as organizational action measures.
+
 ## Events
 
-- Hackathons and datathons
+Open data day celebrations, datathons, and hackathons are ways that open data programs, departments, community organizations, researchers, local news organizations, and technology sponsors typically engage the public to participate in a day, weekend, or week of using government data to help understand and tackle important community issues.
 
-- Open data events
+In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
 
 ## Policy and Standards
 
