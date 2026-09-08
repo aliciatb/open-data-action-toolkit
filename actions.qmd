@@ -7,9 +7,9 @@ tbl-cap-location: bottom
 
 ## Why organizational action measures matter
 
-Actions taken to support the use of open data indicates organizational commitment to transparency and share what data is collected and being used to provide public services and inform government response to community issues.
+Actions taken to support the use of open data indicate organizational commitment to transparency and share what data is collected and being used to provide public services and inform government response to community issues.
 
-## Datasets and Data Product Measures
+## Dataset and Data Product Measures
 
 New datasets often represent the fulfillment of public requests [@mergel2018] or commitment of departments and programs to publish data that shows how their work serves the public [@johnson2016]. Government response to public health emergencies, severe weather events, and local issues can be measured in part by the new applications and websites created to provide information and connect people to needed services.
 
@@ -26,6 +26,12 @@ Content created to train users on how to use open data and data products demonst
 ## Event Measures
 
 Open data day celebrations, datathons, and hackathons are ways that open data programs, departments, community organizations, researchers, local news organizations, and technology sponsors typically engage the public to participate in a day, weekend, or week of using government data to help understand and tackle important community issues. The number of events hosted and supported are measures that demonstrate program engagement with the public.
+
+## Organization Change Measures
+
+Additions to staffing or changes to groups to ensure there is adequate staff to publish new data, address increases in data work, and facilitate coordination show commitment to making data publicly available.
+
+Examples of organization changes made to improve analytics capacity include the integration of GIS staff with the Information Services team in Baton Rouge [@cityofbatonrougeandparishofeastbatonrouge2023a].
 
 ## Data Collection
 
@@ -45,36 +51,42 @@ A consistent feature of the Baton Rouge annual open data policy report is the "B
 
 ## Summary of Measures
 
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Category     | Measures                                                     | Context                                                               |
-+==============+==============================================================+=======================================================================+
-| Data Product | New datasets and data products                               | What initiated the creation of the new dataset or data product:       |
-|              |                                                              |                                                                       |
-|              |                                                              | - Public information request                                          |
-|              |                                                              |                                                                       |
-|              |                                                              | - Department initiative                                               |
-|              |                                                              |                                                                       |
-|              |                                                              | - Leadership priority                                                 |
-|              |                                                              |                                                                       |
-|              |                                                              | - Directive or resolution                                             |
-|              |                                                              |                                                                       |
-|              |                                                              | - Technology standard or policy                                       |
-|              |                                                              |                                                                       |
-|              |                                                              | - Community issue                                                     |
-|              |                                                              |                                                                       |
-|              |                                                              | - Emergency event                                                     |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Data Product | Updates to datasets                                          | How new fields and information make the data more valuable and useful |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Support      | New communcation channels for open data team and data owners | Why a new solution was implemented                                    |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Support      | Newsletters, social media campaigns, press releases          | Topics and platforms                                                  |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Support      | New content (videos, tutorials, knowledge base articles)     | What dataset or data product required additional guidance? Did        |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Events       | Events hosted or supported                                   | Event theme and audience                                              |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
-| Events       | Event attendance                                             | Type of attendance                                                    |
-+--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+|              |                                                              |                                                                       |           |
++==============+==============================================================+=======================================================================+===========+
+| # Category   | # Measures                                                   | # Context                                                             |           |
+|              |                                                              |                                                                       |           |
+| Data Product | New datasets and data products                               | What initiated the creation of the new dataset or data product:       |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Public information request                                          |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Department initiative                                               |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Leadership priority                                                 |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Directive or resolution                                             |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Technology standard or policy                                       |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Community issue                                                     |           |
+|              |                                                              |                                                                       |           |
+|              |                                                              | - Emergency event                                                     |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+|              |                                                              |                                                                       |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Data Product | Updates to datasets                                          | How new fields and information make the data more valuable and useful |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Support      | New communcation channels for open data team and data owners | Why a new solution was implemented                                    |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Support      | Newsletters, social media campaigns, press releases          | Topics and platforms                                                  |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Support      | New content (videos, tutorials, knowledge base articles)     | What dataset or data product required additional guidance? Did        |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Events       | Events hosted or supported                                   | Event theme and audience                                              |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Events       | Event attendance                                             | Type of attendance                                                    |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
+| Organization | Changes to organization structure                            | Driver of the change                                                  |           |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+-----------+
 
-: Organizational Action Measures  {.striped .hover}
+: Organizational Action Measures {.striped .hover}

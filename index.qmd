@@ -16,6 +16,8 @@ The toolkit first provides examples of the types of actions taken by organizatio
 
 3.  Hosting and participating in local events
 
+4.  Organization and staffing changes
+
 Learn more about tracking [organizational actions](actions.qmd).
 
 # Data Portal Measures

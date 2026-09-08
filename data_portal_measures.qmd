@@ -8,9 +8,23 @@ link-citations: true
 
 Web analytics provides raw data on what assets are most popular
 
-The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.
+## Web Analytic Measures
+
+Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use [@tylertechnologies2022], [@esri].
+
+## Data Collection
+
+### Overview Pages
+
+Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the [Issued Construction Permits](https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data) on the Austin data portal.
+
+[![Issued Building Permits](images/clipboard-austin-issued-building-permits.png){fig-alt="Screenshot showing the about section on the Issue Building Permits dataset overview page"}](https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data)
+
+In the "About" section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.
 
 ## Data Catalogs
+
+The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.
 
 Example data catalogs include:
 
@@ -32,18 +46,6 @@ Example data catalogs include:
 
   - Maps and : <https://sfgov.maps.arcgis.com/home/gallery.html>
 
-## Web Analytics
-
-Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use [@tylertechnologies2022], [@esri].
-
-### Overview Pages
-
-Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the [Issued Construction Permits](https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data) on the Austin data portal.
-
-[![Issued Building Permits](images/clipboard-austin-issued-building-permits.png){fig-alt="Screenshot showing the about section on the Issue Building Permits dataset overview page"}](https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data)
-
-In the "About" section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.
-
 ### APIs (Application programming interfaces)
 
 The Tyler Technologies Discovery API [@socrata] provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.
@@ -61,6 +63,8 @@ Example API endpoint with parameters to retrieve all published data assets by da
 - San Francisco, California
 
   - Discovery catalog endpoint: <http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&published=true&limit=5000>
+
+## Reporting
 
 The following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.
 
@@ -85,3 +89,5 @@ Example portal reports:
 - San Francisco, California
 
   - [Dataset Inventory Explorer](https://data.sfgov.org/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/)
+  
+## Summary of Measures

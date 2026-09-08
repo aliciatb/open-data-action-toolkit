@@ -181,13 +181,20 @@ div.csl-indent {
    
   <ul>
   <li><a href="#why-data-portal-measures-matter" id="toc-why-data-portal-measures-matter" class="nav-link active" data-scroll-target="#why-data-portal-measures-matter">Why data portal measures matter</a></li>
-  <li><a href="#data-catalogs" id="toc-data-catalogs" class="nav-link" data-scroll-target="#data-catalogs">Data Catalogs</a></li>
-  <li><a href="#web-analytics" id="toc-web-analytics" class="nav-link" data-scroll-target="#web-analytics">Web Analytics</a>
+  <li><a href="#web-analytic-measures" id="toc-web-analytic-measures" class="nav-link" data-scroll-target="#web-analytic-measures">Web Analytic Measures</a></li>
+  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a>
   <ul class="collapse">
   <li><a href="#overview-pages" id="toc-overview-pages" class="nav-link" data-scroll-target="#overview-pages">Overview Pages</a></li>
+  </ul></li>
+  <li><a href="#data-catalogs" id="toc-data-catalogs" class="nav-link" data-scroll-target="#data-catalogs">Data Catalogs</a>
+  <ul class="collapse">
   <li><a href="#apis-application-programming-interfaces" id="toc-apis-application-programming-interfaces" class="nav-link" data-scroll-target="#apis-application-programming-interfaces">APIs (Application programming interfaces)</a></li>
+  </ul></li>
+  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a>
+  <ul class="collapse">
   <li><a href="#data-portal-detailed-reports" id="toc-data-portal-detailed-reports" class="nav-link" data-scroll-target="#data-portal-detailed-reports">Data Portal Detailed Reports</a></li>
   </ul></li>
+  <li><a href="#summary-of-measures" id="toc-summary-of-measures" class="nav-link" data-scroll-target="#summary-of-measures">Summary of Measures</a></li>
   </ul>
 </nav>
     </div>
@@ -216,10 +223,28 @@ div.csl-indent {
 <section id="why-data-portal-measures-matter" class="level2">
 <h2 class="anchored" data-anchor-id="why-data-portal-measures-matter">Why data portal measures matter</h2>
 <p>Web analytics provides raw data on what assets are most popular</p>
-<p>The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.</p>
+</section>
+<section id="web-analytic-measures" class="level2">
+<h2 class="anchored" data-anchor-id="web-analytic-measures">Web Analytic Measures</h2>
+<p>Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use <span class="citation" data-cites="tylertechnologies2022">(<a href="#ref-tylertechnologies2022" role="doc-biblioref">Tyler Technologies 2022</a>)</span>, <span class="citation" data-cites="esri">(<a href="#ref-esri" role="doc-biblioref">Esri, n.d.</a>)</span>.</p>
+</section>
+<section id="data-collection" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection">Data Collection</h2>
+<section id="overview-pages" class="level3">
+<h3 class="anchored" data-anchor-id="overview-pages">Overview Pages</h3>
+<p>Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the <a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data">Issued Construction Permits</a> on the Austin data portal.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data"><img src="images/clipboard-austin-issued-building-permits.png" class="img-fluid figure-img" alt="Screenshot showing the about section on the Issue Building Permits dataset overview page"></a></p>
+<figcaption>Issued Building Permits</figcaption>
+</figure>
+</div>
+<p>In the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.</p>
+</section>
 </section>
 <section id="data-catalogs" class="level2">
 <h2 class="anchored" data-anchor-id="data-catalogs">Data Catalogs</h2>
+<p>The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.</p>
 <p>Example data catalogs include:</p>
 <ul>
 <li><p>Austin, Texas</p>
@@ -238,21 +263,6 @@ div.csl-indent {
 <li><p>Maps and : <a href="https://sfgov.maps.arcgis.com/home/gallery.html" class="uri">https://sfgov.maps.arcgis.com/home/gallery.html</a></p></li>
 </ul></li>
 </ul>
-</section>
-<section id="web-analytics" class="level2">
-<h2 class="anchored" data-anchor-id="web-analytics">Web Analytics</h2>
-<p>Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use <span class="citation" data-cites="tylertechnologies2022">(<a href="#ref-tylertechnologies2022" role="doc-biblioref">Tyler Technologies 2022</a>)</span>, <span class="citation" data-cites="esri">(<a href="#ref-esri" role="doc-biblioref">Esri, n.d.</a>)</span>.</p>
-<section id="overview-pages" class="level3">
-<h3 class="anchored" data-anchor-id="overview-pages">Overview Pages</h3>
-<p>Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the <a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data">Issued Construction Permits</a> on the Austin data portal.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data"><img src="images/clipboard-austin-issued-building-permits.png" class="img-fluid figure-img" alt="Screenshot showing the about section on the Issue Building Permits dataset overview page"></a></p>
-<figcaption>Issued Building Permits</figcaption>
-</figure>
-</div>
-<p>In the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.</p>
-</section>
 <section id="apis-application-programming-interfaces" class="level3">
 <h3 class="anchored" data-anchor-id="apis-application-programming-interfaces">APIs (Application programming interfaces)</h3>
 <p>The Tyler Technologies Discovery API <span class="citation" data-cites="socrata">(<a href="#ref-socrata" role="doc-biblioref"><em>Socrata Discovery API</em>, n.d.</a>)</span> provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.</p>
@@ -271,6 +281,10 @@ div.csl-indent {
 <li>Discovery catalog endpoint: <a href="http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&amp;published=true&amp;limit=5000" class="uri">http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&amp;published=true&amp;limit=5000</a></li>
 </ul></li>
 </ul>
+</section>
+</section>
+<section id="reporting" class="level2">
+<h2 class="anchored" data-anchor-id="reporting">Reporting</h2>
 <p>The following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -279,7 +293,6 @@ div.csl-indent {
 </figure>
 </div>
 <p>Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog <span class="citation" data-cites="schwoerer2022">(<a href="#ref-schwoerer2022" role="doc-biblioref">Schwoerer 2022</a>)</span>. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data <span class="citation" data-cites="nahon2015">(<a href="#ref-nahon2015" role="doc-biblioref">Nahon et al. 2015</a>)</span>.</p>
-</section>
 <section id="data-portal-detailed-reports" class="level3">
 <h3 class="anchored" data-anchor-id="data-portal-detailed-reports">Data Portal Detailed Reports</h3>
 <p>Data portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.</p>
@@ -298,13 +311,16 @@ div.csl-indent {
 <li><a href="https://data.sfgov.org/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/">Dataset Inventory Explorer</a></li>
 </ul></li>
 </ul>
+</section>
+</section>
+<section id="summary-of-measures" class="level2">
+
 
 
 
 </section>
-</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Summary of Measures</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-esri" class="csl-entry" role="listitem">
 Esri. n.d. <em>Monitor Item Usage<span></span>ArcGIS Online Help</em>. <a href="https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm">https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm</a>.
 </div>
