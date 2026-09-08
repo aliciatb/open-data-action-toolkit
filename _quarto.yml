@@ -20,8 +20,6 @@ website:
           - data_portal_measures.qmd
           - text: Web Analytics
             href: analytics.qmd
-          - text: Catalog Quality
-            href: catalog_measures.qmd
       - text: Engagement
         menu: 
           - engagement.qmd
@@ -46,6 +44,9 @@ format:
       - brand
     css: styles.css
     toc: true
+    table:
+      striped: true
+      hover: true
 
 editor: visual
 

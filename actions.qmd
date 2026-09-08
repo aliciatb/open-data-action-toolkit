@@ -15,7 +15,7 @@ New datasets often represent the fulfillment of public requests [@mergel2018] or
 
 The Information Services team at Baton Rouge created a map application to inform and guide their response to a major flood event [@koma2016]. They also invited the public to contact their department directly to update them about property damage [@gallo2016]. The flood inundation map continues to rank as one of the top data products accessed by the public [@cityofbatonrougeandparishofeastbatonrougeb].
 
-Senate bills passed by the state authorizing immigration checks by public safety departments led to the city council in Austin to pass a resolution directing the Police department to end most arrests for citation-eligible offenses and to provide detailed data about discretionary arrests for leadership review [@wilson2018a; @cityofaustin2018a]. The publishing of the Immigration Status dataset and guide to the open data portal [@cityofaustinb; @cityofaustinb] enabled both internal and external reviews of arrests and racial disparities [@sanders2020; @gates2020; @cronk2020].
+Senate bills passed by the state authorizing immigration checks by public safety departments led to the city council in Austin to pass a resolution directing the Police Department to end most arrests for citation-eligible offenses and to provide detailed data about discretionary arrests for leadership review [@wilson2018a; @cityofaustin2018a]. The publishing of the Immigration Status Dataset and Guide [@cityofaustintexas-austinpolice; @cityofaustina] to the open data portal enabled both internal and external reviews of arrests and racial disparities [@sanders2020; @gates2020; @cronk2020].
 
 By providing the context of new dataset and data products, organizations can demonstrate how open data supports the priorities of local government and the public.
 
@@ -50,19 +50,19 @@ A consistent feature of the Baton Rouge annual open data policy report is the "B
 +==============+==============================================================+=======================================================================+
 | Data Product | New datasets and data products                               | What initiated the creation of the new dataset or data product:       |
 |              |                                                              |                                                                       |
-|              |                                                              | - public information request                                          |
+|              |                                                              | - Public information request                                          |
 |              |                                                              |                                                                       |
-|              |                                                              | - department initiative                                               |
+|              |                                                              | - Department initiative                                               |
 |              |                                                              |                                                                       |
-|              |                                                              | - leadership priority                                                 |
+|              |                                                              | - Leadership priority                                                 |
 |              |                                                              |                                                                       |
-|              |                                                              | - directive or resolution                                             |
+|              |                                                              | - Directive or resolution                                             |
 |              |                                                              |                                                                       |
-|              |                                                              | - technology standard or policy                                       |
+|              |                                                              | - Technology standard or policy                                       |
 |              |                                                              |                                                                       |
-|              |                                                              | - community issue                                                     |
+|              |                                                              | - Community issue                                                     |
 |              |                                                              |                                                                       |
-|              |                                                              | - emergency event                                                     |
+|              |                                                              | - Emergency event                                                     |
 +--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
 | Data Product | Updates to datasets                                          | How new fields and information make the data more valuable and useful |
 +--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
@@ -77,4 +77,4 @@ A consistent feature of the Baton Rouge annual open data policy report is the "B
 | Events       | Event attendance                                             | Type of attendance                                                    |
 +--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
 
-: Organizational Action Measures
+: Organizational Action Measures  {.striped .hover}

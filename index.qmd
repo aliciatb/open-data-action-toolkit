@@ -10,7 +10,7 @@ The examples provided in the toolkit are based on the data, data products, and r
 
 The toolkit first provides examples of the types of actions taken by organizations to support open data use, including:
 
-1.  The creation of data products (datasets, maps, applications, dashboards, visualizations, data stories, and initiative websites) in support of public information requests, department initiatives, leadership priorities, directives or resolutions, technology standards or policies, community issues, or emergency events.
+1.  The creation of data products (datasets, maps, applications, dashboards, visualizations, data stories, and initiative websites) in support of public information requests, department initiatives, leadership priorities, directives or resolutions, technology standards or policies, community issues, or emergency events
 
 2.  The provision of support and communication mechanisms
 
