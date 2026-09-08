@@ -1,7 +1,0 @@
----
-title: "Open Data Glossary"
----
-
-# I
-
-Intemediary

@@ -118,25 +118,10 @@ div.csl-indent {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-actions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Actions</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-actions">    
-        <li>
-    <a class="dropdown-item" href="./actions.html">
- <span class="dropdown-text">Organizational Actions</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="./actions.html" aria-current="page"> 
+<span class="menu-text">Actions</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./data_products.html">
- <span class="dropdown-text">Data Products</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./policy_standards.html">
- <span class="dropdown-text">Policy &amp; Standards</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-portal-measures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Data Portal Measures</span>
@@ -151,7 +136,7 @@ div.csl-indent {
  <span class="dropdown-text">Web Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./catalog_measures.html">
+    <a class="dropdown-item" href="./catalog_measures.qmd">
  <span class="dropdown-text">Catalog Quality</span></a>
   </li>  
     </ul>
@@ -175,24 +160,9 @@ div.csl-indent {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reporting" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Reporting</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-reporting">    
-        <li>
-    <a class="dropdown-item" href="./reporting.html">
- <span class="dropdown-text">Reporting</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./measures.html">
- <span class="dropdown-text">Measures Catalog</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./act_now.html"> 
-<span class="menu-text">Practical Applications</span></a>
+    <a class="nav-link" href="./reporting.html"> 
+<span class="menu-text">Reporting</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -201,21 +171,6 @@ div.csl-indent {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/aliciatb/open-data-action-toolkit">
-            Source Code
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/aliciatb/open-data-action-toolkit/issues/new/choose">
-            Report an Issue
-            </a>
-          </li>
-      </ul>
-    </div>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -229,11 +184,13 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-products" id="toc-data-products" class="nav-link active" data-scroll-target="#data-products">Data Products</a></li>
-  <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a></li>
-  <li><a href="#events" id="toc-events" class="nav-link" data-scroll-target="#events">Events</a></li>
-  <li><a href="#policy-and-standards" id="toc-policy-and-standards" class="nav-link" data-scroll-target="#policy-and-standards">Policy and Standards</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#why-organizational-action-measures-matter" id="toc-why-organizational-action-measures-matter" class="nav-link active" data-scroll-target="#why-organizational-action-measures-matter">Why organizational action measures matter</a></li>
+  <li><a href="#datasets-and-data-product-measures" id="toc-datasets-and-data-product-measures" class="nav-link" data-scroll-target="#datasets-and-data-product-measures">Datasets and Data Product Measures</a></li>
+  <li><a href="#support-measures" id="toc-support-measures" class="nav-link" data-scroll-target="#support-measures">Support Measures</a></li>
+  <li><a href="#event-measures" id="toc-event-measures" class="nav-link" data-scroll-target="#event-measures">Event Measures</a></li>
+  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a></li>
+  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a></li>
+  <li><a href="#summary-of-measures" id="toc-summary-of-measures" class="nav-link" data-scroll-target="#summary-of-measures">Summary of Measures</a></li>
   </ul>
 </nav>
     </div>
@@ -259,58 +216,146 @@ div.csl-indent {
 </header>
 
 
-<p>Actions taken to support the use of open data provide indications of commitment by organizations to users.</p>
-<section id="data-products" class="level2">
-<h2 class="anchored" data-anchor-id="data-products">Data Products</h2>
-<p>The creation of new datasets may represent the fulfillment of public requests <span class="citation" data-cites="mergel2018">(<a href="#ref-mergel2018" role="doc-biblioref">Mergel et al. 2018</a>)</span> or signify successful collaboration with departments to publish data that demonstrates their work on behalf of the public <span class="citation" data-cites="johnson2016">(<a href="#ref-johnson2016" role="doc-biblioref">Johnson 2016</a>)</span>.</p>
-<p>Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog <span class="citation" data-cites="schwoerer2022">(<a href="#ref-schwoerer2022" role="doc-biblioref">Schwoerer 2022</a>)</span>. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data <span class="citation" data-cites="nahon2015">(<a href="#ref-nahon2015" role="doc-biblioref">Nahon et al. 2015</a>)</span>.</p>
+<section id="why-organizational-action-measures-matter" class="level2">
+<h2 class="anchored" data-anchor-id="why-organizational-action-measures-matter">Why organizational action measures matter</h2>
+<p>Actions taken to support the use of open data indicates organizational commitment to transparency and share what data is collected and being used to provide public services and inform government response to community issues.</p>
 </section>
-<section id="support" class="level2">
-<h2 class="anchored" data-anchor-id="support">Support</h2>
-<p>Providing users access through support platforms makes it easy to isolate and report open data requests for help, new data, and detailed public information queries. Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public <span class="citation" data-cites="guy2021">(<a href="#ref-guy2021" role="doc-biblioref">Guy 2021</a>)</span>.</p>
-<p>Online content, communication channels, tutorials, videos, and case studies that enable users are actions that should be reported as organizational action measures.</p>
+<section id="datasets-and-data-product-measures" class="level2">
+<h2 class="anchored" data-anchor-id="datasets-and-data-product-measures">Datasets and Data Product Measures</h2>
+<p>New datasets often represent the fulfillment of public requests <span class="citation" data-cites="mergel2018">(<a href="#ref-mergel2018" role="doc-biblioref">Mergel et al. 2018</a>)</span> or commitment of departments and programs to publish data that shows how their work serves the public <span class="citation" data-cites="johnson2016">(<a href="#ref-johnson2016" role="doc-biblioref">Johnson 2016</a>)</span>. Government response to public health emergencies, severe weather events, and local issues can be measured in part by the new applications and websites created to provide information and connect people to needed services.</p>
+<p>The Information Services team at Baton Rouge created a map application to inform and guide their response to a major flood event <span class="citation" data-cites="koma2016">(<a href="#ref-koma2016" role="doc-biblioref">Koma 2016</a>)</span>. They also invited the public to contact their department directly to update them about property damage <span class="citation" data-cites="gallo2016">(<a href="#ref-gallo2016" role="doc-biblioref">Gallo 2016</a>)</span>. The flood inundation map continues to rank as one of the top data products accessed by the public <span class="citation" data-cites="cityofbatonrougeandparishofeastbatonrougeb">(<a href="#ref-cityofbatonrougeandparishofeastbatonrougeb" role="doc-biblioref">Baton Rouge and Parish of East Baton Rouge, n.d.</a>)</span>.</p>
+<p>Senate bills passed by the state authorizing immigration checks by public safety departments led to the city council in Austin to pass a resolution directing the Police department to end most arrests for citation-eligible offenses and to provide detailed data about discretionary arrests for leadership review <span class="citation" data-cites="wilson2018a cityofaustin2018a">(<a href="#ref-wilson2018a" role="doc-biblioref">Wilson 2018</a>; <a href="#ref-cityofaustin2018a" role="doc-biblioref">City of Austin 2018</a>)</span>. The publishing of the Immigration Status dataset and guide to the open data portal <span class="citation" data-cites="cityofaustinb cityofaustinb">(<a href="#ref-cityofaustinb" role="doc-biblioref">City of Austin and Austin Police Department, n.d.</a>, <a href="#ref-cityofaustinb" role="doc-biblioref">n.d.</a>)</span> enabled both internal and external reviews of arrests and racial disparities <span class="citation" data-cites="sanders2020 gates2020 cronk2020">(<a href="#ref-sanders2020" role="doc-biblioref">Sanders 2020</a>; <a href="#ref-gates2020" role="doc-biblioref">Gates et al. 2020</a>; <a href="#ref-cronk2020" role="doc-biblioref">Cronk 2020</a>)</span>.</p>
+<p>By providing the context of new dataset and data products, organizations can demonstrate how open data supports the priorities of local government and the public.</p>
 </section>
-<section id="events" class="level2">
-<h2 class="anchored" data-anchor-id="events">Events</h2>
-<p>Open data day celebrations, datathons, and hackathons are ways that open data programs, departments, community organizations, researchers, local news organizations, and technology sponsors typically engage the public to participate in a day, weekend, or week of using government data to help understand and tackle important community issues.</p>
-<p>In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants <span class="citation" data-cites="jaskiewicz2019">(<a href="#ref-jaskiewicz2019" role="doc-biblioref">Jaskiewicz et al. 2019</a>)</span>.</p>
+<section id="support-measures" class="level2">
+<h2 class="anchored" data-anchor-id="support-measures">Support Measures</h2>
+<p>Content created to train users on how to use open data and data products demonstrate program commitment to the public. Dedicated communication channels for technical support or to ask data owners questions demonstrate accountability for the systems and data published on data portals.</p>
 </section>
-<section id="policy-and-standards" class="level2">
-<h2 class="anchored" data-anchor-id="policy-and-standards">Policy and Standards</h2>
+<section id="event-measures" class="level2">
+<h2 class="anchored" data-anchor-id="event-measures">Event Measures</h2>
+<p>Open data day celebrations, datathons, and hackathons are ways that open data programs, departments, community organizations, researchers, local news organizations, and technology sponsors typically engage the public to participate in a day, weekend, or week of using government data to help understand and tackle important community issues. The number of events hosted and supported are measures that demonstrate program engagement with the public.</p>
+</section>
+<section id="data-collection" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection">Data Collection</h2>
+<p>The number of new datasets and some data products may be found from the catalogs provided by data portals and filtered by creation date and asset type. Context may also be available for those assets if that information has been added to the description, category, data owner, and other metadata fields. New applications and websites that are created outside of a data portal will require manual collection but likely will be tracked by an internal system used for department and technical support teams.</p>
+<p>Events may be manually tracked by departments spreadsheets or available through event registration software.</p>
+<p>New and updated systems that provide support and facilitate communication may be tracked through internal project portfolio systems.</p>
+</section>
+<section id="reporting" class="level2">
+<h2 class="anchored" data-anchor-id="reporting">Reporting</h2>
+<p>Reporting organizational actions should include narrative that describes the context and motivations for the actions. Ongoing reporting may show lifetime values of actions and results. Annual reporting provides a snapshot for the program, enabling tracking of progress over time.</p>
+<p>A consistent feature of the Baton Rouge annual open data policy report is the “By the Numbers” section that shows both the number of datasets, data products, events, and engagements, as well as the resulting social media impressions and views of data assets and support videos <span class="citation" data-cites="cityofbatonrougeandparishofeastbatonrouge2025b">(<a href="#ref-cityofbatonrougeandparishofeastbatonrouge2025b" role="doc-biblioref">Baton Rouge and Parish of East Baton Rouge 2025</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://ebrgis.hub.arcgis.com/pages/56e664108d96424091d56eaa6a900edc"><img src="images/clipboard-brla-2025-by-the-numbers.png" class="img-fluid figure-img" alt="Image that shows key measures in the 2025 Open Data Policy Report"></a></p>
+<figcaption>Open Data Policy Report 2025 - By the Numbers</figcaption>
+</figure>
+</div>
+</section>
+<section id="summary-of-measures" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-measures">Summary of Measures</h2>
+<table class="table">
+<caption>Organizational Action Measures</caption>
+<colgroup>
+<col style="width: 9%">
+<col style="width: 41%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Measures</th>
+<th>Context</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data Product</td>
+<td>New datasets and data products</td>
+<td><p>What initiated the creation of the new dataset or data product:</p>
 <ul>
-<li><p>Council resolutions</p></li>
-<li><p>Executive directives</p></li>
-<li><p>Recommendations</p></li>
-<li><p>Legal mandates</p></li>
-<li><p>Budget support</p></li>
-<li><p>Technology standards</p></li>
-</ul>
-</section>
-<section id="section" class="level2">
-
+<li><p>public information request</p></li>
+<li><p>department initiative</p></li>
+<li><p>leadership priority</p></li>
+<li><p>directive or resolution</p></li>
+<li><p>technology standard or policy</p></li>
+<li><p>community issue</p></li>
+<li><p>emergency event</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Data Product</td>
+<td>Updates to datasets</td>
+<td>How new fields and information make the data more valuable and useful</td>
+</tr>
+<tr class="odd">
+<td>Support</td>
+<td>New communcation channels for open data team and data owners</td>
+<td>Why a new solution was implemented</td>
+</tr>
+<tr class="even">
+<td>Support</td>
+<td>Newsletters, social media campaigns, press releases</td>
+<td>Topics and platforms</td>
+</tr>
+<tr class="odd">
+<td>Support</td>
+<td>New content (videos, tutorials, knowledge base articles)</td>
+<td>What dataset or data product required additional guidance? Did</td>
+</tr>
+<tr class="even">
+<td>Events</td>
+<td>Events hosted or supported</td>
+<td>Event theme and audience</td>
+</tr>
+<tr class="odd">
+<td>Events</td>
+<td>Event attendance</td>
+<td>Type of attendance</td>
+</tr>
+</tbody>
+</table>
 
 
 
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-guy2021" class="csl-entry" role="listitem">
-Guy, Mary E. 2021. <span>“Expanding the Toolbox: Why the Citizen-State Encounter Demands It.”</span> <em>Public Performance &amp; Management Review</em> 44 (5): 1100–1117. <a href="https://doi.org/10.1080/15309576.2019.1677255">https://doi.org/10.1080/15309576.2019.1677255</a>.
+<div id="ref-cityofbatonrougeandparishofeastbatonrouge2025b" class="csl-entry" role="listitem">
+Baton Rouge, City of, and Parish of East Baton Rouge. 2025. <em>2025 Open Data Policy Report</em>. <a href="https://ebrgis.hub.arcgis.com/pages/56e664108d96424091d56eaa6a900edc">https://ebrgis.hub.arcgis.com/pages/56e664108d96424091d56eaa6a900edc</a>.
 </div>
-<div id="ref-jaskiewicz2019" class="csl-entry" role="listitem">
-Jaskiewicz, Tomasz, Ingrid Mulder, Nicola Morelli, and Janice Pedersen. 2019. <span>“Hacking the Hackathon Format to Empower Citizens in Outsmarting <span>“</span>Smart<span>”</span> Cities.”</span> <em>Interaction Design and Architecture(s)</em>, no. 43 (December): 8–29. <a href="https://doi.org/10.55612/s-5002-043-001">https://doi.org/10.55612/s-5002-043-001</a>.
+<div id="ref-cityofbatonrougeandparishofeastbatonrougeb" class="csl-entry" role="listitem">
+Baton Rouge, City of, and Parish of East Baton Rouge. n.d. <em>Transparency Performance Metrics</em>. <a href="https://ebrgis.hub.arcgis.com/apps/c25fbe21091b4fa1b60b22e2bb551eb1/explore">https://ebrgis.hub.arcgis.com/apps/c25fbe21091b4fa1b60b22e2bb551eb1/explore</a>.
+</div>
+<div id="ref-cityofaustin2018a" class="csl-entry" role="listitem">
+City of Austin. 2018. <em>Items 73 &amp; 74 on June 14, 2018 Agenda - City of Austin Council Message Board</em>. <a href="https://austincouncilforum.org/viewtopic.php?t=1052">https://austincouncilforum.org/viewtopic.php?t=1052</a>.
+</div>
+<div id="ref-cityofaustinb" class="csl-entry" role="listitem">
+City of Austin, and Austin Police Department. n.d. <em>APD Immigration Status Inquiries</em>.
+</div>
+<div id="ref-cronk2020" class="csl-entry" role="listitem">
+Cronk, Spencer. 2020. <em>Analysis of the Austin Police Department<span>’</span>s Racial Profiling Report</em>. <a href="https://services.austintexas.gov/edims/pio/document.cfm?id=334984">https://services.austintexas.gov/edims/pio/document.cfm?id=334984</a>.
+</div>
+<div id="ref-gallo2016" class="csl-entry" role="listitem">
+Gallo, Andrea. 2016. <span>“Interactive Map: Find Your Address, See Where Parts of Baton Rouge Flooded.”</span> <em>The Advocate</em>, August 23. <a href="https://www.theadvocate.com/louisiana_flood_2016/interactive-map-find-your-address-see-where-parts-of-baton-rouge-flooded/article_b6aae68c-6952-11e6-9dd9-dfb229b90b79.html">https://www.theadvocate.com/louisiana_flood_2016/interactive-map-find-your-address-see-where-parts-of-baton-rouge-flooded/article_b6aae68c-6952-11e6-9dd9-dfb229b90b79.html</a>.
+</div>
+<div id="ref-gates2020" class="csl-entry" role="listitem">
+Gates, Billy, Yoojin Cho, and Alex Caprariello. 2020. <span>“City Report Says Racial Disparity in Vehicle Stops by APD Exists and Is Getting Worse.”</span> <em>KXAN Austin</em>, January 30. <a href="https://www.kxan.com/news/local/austin/city-report-says-racial-disparity-in-vehicle-stops-by-apd-exists-and-is-getting-worse/">https://www.kxan.com/news/local/austin/city-report-says-racial-disparity-in-vehicle-stops-by-apd-exists-and-is-getting-worse/</a>.
 </div>
 <div id="ref-johnson2016" class="csl-entry" role="listitem">
 Johnson, Peter. 2016. <span>“Reflecting on the Success of Open Data: How Municipal Government Evaluates Their Open Data Programs.”</span> <em>International Journal of E-Planning Research (IJEPR)</em> 5 (3): 1–12. <a href="https://doi.org/10.4018/IJEPR.2016070101">https://doi.org/10.4018/IJEPR.2016070101</a>.
 </div>
+<div id="ref-koma2016" class="csl-entry" role="listitem">
+Koma, Alex. 2016. <em>Baton Rouge Builds Interactive, GIS-Powered Map After Massive Floods</em>. <a href="https://statescoop.com/baton-rouge-builds-interactive-gis-powered-map-after-massive-floods/">https://statescoop.com/baton-rouge-builds-interactive-gis-powered-map-after-massive-floods/</a>.
+</div>
 <div id="ref-mergel2018" class="csl-entry" role="listitem">
 Mergel, Ines, Alexander Kleibrink, and Jens Sörvik. 2018. <span>“Open Data Outcomes: U.s. Cities Between Product and Process Innovation.”</span> <em>Government Information Quarterly</em> 35 (4): 622–32. <a href="https://doi.org/10.1016/j.giq.2018.09.004">https://doi.org/10.1016/j.giq.2018.09.004</a>.
 </div>
-<div id="ref-nahon2015" class="csl-entry" role="listitem">
-Nahon, Karin, Alon Peled, and Jenniver Shkabatur. 2015. <span>“OGD Heartbeat: Cities<span>’</span> Commitment to Open Data.”</span> <em>JeDEM - eJournal of eDemocracy and Open Government</em> 7 (2): 116–36. <a href="https://doi.org/10.29379/jedem.v7i2.410">https://doi.org/10.29379/jedem.v7i2.410</a>.
+<div id="ref-sanders2020" class="csl-entry" role="listitem">
+Sanders, Austin. 2020. <span>“Study Shows Growing Racial Disparities in APD Traffic Stops and Arrests.”</span> <em>Austin Chronicle</em>, January 30. <a href="https://www.austinchronicle.com/daily/news/2020-01-30/study-shows-growing-racial-disparities-in-apd-traffic-stops-and-arrests/">https://www.austinchronicle.com/daily/news/2020-01-30/study-shows-growing-racial-disparities-in-apd-traffic-stops-and-arrests/</a>.
 </div>
-<div id="ref-schwoerer2022" class="csl-entry" role="listitem">
-Schwoerer, Kayla. 2022. <span>“Whose Open Data Is It Anyway? An Exploratory Study of Open Government Data Relevance and Implications for Democratic Inclusion.”</span> <em>Information Polity</em> 27 (4): 491–515. <a href="https://doi.org/10.3233/IP-220008">https://doi.org/10.3233/IP-220008</a>.
+<div id="ref-wilson2018a" class="csl-entry" role="listitem">
+Wilson, Mark. 2018. <span>“Council Approves Resolutions on Racial Disparity, Immigrant Arrests.”</span> <em>Austin American-Statesman</em>, June 15. <a href="https://www.statesman.com/story/news/2018/06/15/council-approves-resolutions-on-racial-disparity-immigrant-arrests/10126917007/">https://www.statesman.com/story/news/2018/06/15/council-approves-resolutions-on-racial-disparity-immigrant-arrests/10126917007/</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

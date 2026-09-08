@@ -62,6 +62,8 @@ The following screenshot of a Power BI report demonstrates the type of useful in
 
 ![Power BI Report of Discovery API Results](images/clipboard-powerbi-discovery-api.png){fig-alt="Dashboard screenshot of a Power BI report with analytic data for Austin, Baton Rouge, and San Francisco open data assets"}
 
+Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog [@schwoerer2022]. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data [@nahon2015].
+
 ### Data Portal Detailed Reports
 
 Data portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.

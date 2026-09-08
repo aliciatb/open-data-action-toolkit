@@ -1,5 +1,0 @@
----
-title: "Measures"
----
-
-Measures recommended to track organizational actions and signals of public use and engagement with open data.

@@ -2,40 +2,79 @@
 title: "Organizational Actions"
 bibliography: references.bib
 link-citations: true
+tbl-cap-location: bottom
 ---
 
-Actions taken to support the use of open data provide indications of commitment by organizations to users.
+## Why organizational action measures matter
 
-## Data Products
+Actions taken to support the use of open data indicates organizational commitment to transparency and share what data is collected and being used to provide public services and inform government response to community issues.
 
-The creation of new datasets may represent the fulfillment of public requests [@mergel2018] or signify successful collaboration with departments to publish data that demonstrates their work on behalf of the public [@johnson2016].
+## Datasets and Data Product Measures
 
-Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog [@schwoerer2022]. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data [@nahon2015].
+New datasets often represent the fulfillment of public requests [@mergel2018] or commitment of departments and programs to publish data that shows how their work serves the public [@johnson2016]. Government response to public health emergencies, severe weather events, and local issues can be measured in part by the new applications and websites created to provide information and connect people to needed services.
 
-## Support
+The Information Services team at Baton Rouge created a map application to inform and guide their response to a major flood event [@koma2016]. They also invited the public to contact their department directly to update them about property damage [@gallo2016]. The flood inundation map continues to rank as one of the top data products accessed by the public [@cityofbatonrougeandparishofeastbatonrougeb].
 
-Providing users access through support platforms makes it easy to isolate and report open data requests for help, new data, and detailed public information queries. Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
+Senate bills passed by the state authorizing immigration checks by public safety departments led to the city council in Austin to pass a resolution directing the Police department to end most arrests for citation-eligible offenses and to provide detailed data about discretionary arrests for leadership review [@wilson2018a; @cityofaustin2018a]. The publishing of the Immigration Status dataset and guide to the open data portal [@cityofaustinb; @cityofaustinb] enabled both internal and external reviews of arrests and racial disparities [@sanders2020; @gates2020; @cronk2020].
 
-Online content, communication channels, tutorials, videos, and case studies that enable users are actions that should be reported as organizational action measures.
+By providing the context of new dataset and data products, organizations can demonstrate how open data supports the priorities of local government and the public.
 
-## Events
+## Support Measures
 
-Open data day celebrations, datathons, and hackathons are ways that open data programs, departments, community organizations, researchers, local news organizations, and technology sponsors typically engage the public to participate in a day, weekend, or week of using government data to help understand and tackle important community issues.
+Content created to train users on how to use open data and data products demonstrate program commitment to the public. Dedicated communication channels for technical support or to ask data owners questions demonstrate accountability for the systems and data published on data portals.
 
-In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
+## Event Measures
 
-## Policy and Standards
+Open data day celebrations, datathons, and hackathons are ways that open data programs, departments, community organizations, researchers, local news organizations, and technology sponsors typically engage the public to participate in a day, weekend, or week of using government data to help understand and tackle important community issues. The number of events hosted and supported are measures that demonstrate program engagement with the public.
 
-- Council resolutions
+## Data Collection
 
-- Executive directives
+The number of new datasets and some data products may be found from the catalogs provided by data portals and filtered by creation date and asset type. Context may also be available for those assets if that information has been added to the description, category, data owner, and other metadata fields. New applications and websites that are created outside of a data portal will require manual collection but likely will be tracked by an internal system used for department and technical support teams.
 
-- Recommendations
+Events may be manually tracked by departments spreadsheets or available through event registration software.
 
-- Legal mandates
+New and updated systems that provide support and facilitate communication may be tracked through internal project portfolio systems.
 
-- Budget support
+## Reporting
 
-- Technology standards
+Reporting organizational actions should include narrative that describes the context and motivations for the actions. Ongoing reporting may show lifetime values of actions and results. Annual reporting provides a snapshot for the program, enabling tracking of progress over time.
 
-## 
+A consistent feature of the Baton Rouge annual open data policy report is the "By the Numbers" section that shows both the number of datasets, data products, events, and engagements, as well as the resulting social media impressions and views of data assets and support videos [@cityofbatonrougeandparishofeastbatonrouge2025b].
+
+[![Open Data Policy Report 2025 - By the Numbers](images/clipboard-brla-2025-by-the-numbers.png){fig-alt="Image that shows key measures in the 2025 Open Data Policy Report"}](https://ebrgis.hub.arcgis.com/pages/56e664108d96424091d56eaa6a900edc)
+
+## Summary of Measures
+
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Category     | Measures                                                     | Context                                                               |
++==============+==============================================================+=======================================================================+
+| Data Product | New datasets and data products                               | What initiated the creation of the new dataset or data product:       |
+|              |                                                              |                                                                       |
+|              |                                                              | - public information request                                          |
+|              |                                                              |                                                                       |
+|              |                                                              | - department initiative                                               |
+|              |                                                              |                                                                       |
+|              |                                                              | - leadership priority                                                 |
+|              |                                                              |                                                                       |
+|              |                                                              | - directive or resolution                                             |
+|              |                                                              |                                                                       |
+|              |                                                              | - technology standard or policy                                       |
+|              |                                                              |                                                                       |
+|              |                                                              | - community issue                                                     |
+|              |                                                              |                                                                       |
+|              |                                                              | - emergency event                                                     |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Data Product | Updates to datasets                                          | How new fields and information make the data more valuable and useful |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Support      | New communcation channels for open data team and data owners | Why a new solution was implemented                                    |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Support      | Newsletters, social media campaigns, press releases          | Topics and platforms                                                  |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Support      | New content (videos, tutorials, knowledge base articles)     | What dataset or data product required additional guidance? Did        |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Events       | Events hosted or supported                                   | Event theme and audience                                              |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+| Events       | Event attendance                                             | Type of attendance                                                    |
++--------------+--------------------------------------------------------------+-----------------------------------------------------------------------+
+
+: Organizational Action Measures

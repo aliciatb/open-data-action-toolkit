@@ -4,26 +4,52 @@ bibliography: references.bib
 link-citations: true
 ---
 
-Engagement with open data can be measured through:
+## Why engagement measures matter
 
-- Articles, tools, and research that reference open data
+Engagement with open data can be detected by public interactions with programs and the activity of community organizations, local news organizations, and other intermediaries.
 
-- Attendance at events
+## Public Activity
 
-- Communications and questions about data
+Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
 
-- Public information requests for new data
+### Measures
+
+Providing users access through support platforms makes it easy to isolate and report on:
+
+- Public information requests
+
+- Questions for data owners
+
+- Technical support
+
+- Data quality issues
 
 ## Articles
 
-The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information [@shaharudin2023] and creating feedback loops to government [@wilson2019].
+The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information [@shaharudin2023], creating feedback loops to government [@wilson2019], and hosting datathon events[@kopf2022].
 
 ### Measures
 
 Article measures include publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article. The presence of articles demonstrates accessibility of department data for local reporting and public interest.
 
-View methods for tracking and reporting on [articles](articles.qmd).
+View methods for reporting on [articles](articles.qmd).
 
-## Events
+## Event outcomes
 
-Events and attendance.
+In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
+
+## Public Activity
+
+Monitoring and supporting the contributions by community organizations and intermediaries
+
+### Open Austin
+
+The civic engagement community organization, Open Austin, has served Austin since 2009. They successfully advocated for the creation of the open data portal [@dunbar2009], served as members of the local Code for America chapter, and continue to be active in helping their community to have access to data to improve local conditions and policies.
+
+Learn more about Open Austin [projects](https://open-austin.odoo.com/lab) and [fellowships](https://open-austin.odoo.com/fellowship).
+
+### SF Civic Tech
+
+The civic technology community organization, SF Civic Tech, has served San Francisco since 2013, where they began as the local Code for America chapter [@re-int2024].
+
+Learn more about SF Civic Tech [projects](https://www.sfcivictech.org/projects) and [events](https://www.meetup.com/sfcivictech/events), including a City Camp [unconference](https://citycamp.com/events/san-francisco-ca-united-states-2026).

@@ -14,12 +14,7 @@ website:
       - text: Home
         href: index.qmd
       - text: Actions
-        menu:
-          - actions.qmd
-          - text: Data Products
-            href: data_products.qmd
-          - text: Policy & Standards
-            href: policy_standards.qmd
+        href: actions.qmd
       - text: Data Portal Measures
         menu: 
           - data_portal_measures.qmd
@@ -34,22 +29,8 @@ website:
             href: articles.qmd
           - text: Public Activity
             href: public_activity.qmd
-      - text: Reporting
-        menu:
-          - reporting.qmd
-          - text: Measures Catalog
-            href: measures.qmd
-      - text: Practical Applications
-        href: act_now.qmd
-      - text: About
-        href: about.qmd
-    tools:
-      - icon: github
-        menu:
-          - text: Source Code
-            href:  https://github.com/aliciatb/open-data-action-toolkit
-          - text: Report an Issue
-            href: https://github.com/aliciatb/open-data-action-toolkit/issues/new/choose
+      - reporting.qmd
+      - about.qmd
   page-footer:
       background: light
       left: "Copyright 2026, Alicia Brown" 

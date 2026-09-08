@@ -10,7 +10,7 @@ link-citations: true
 
 2.  Review referrers to data assets from web analytics reports.
 
-3.  Manually monitor local news and blogs.
+3.  Manually monitor local news and blogs. Check for data reporting teams and projects.
 
 ## Data Methods
 
