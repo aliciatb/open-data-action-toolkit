@@ -1,5 +1,5 @@
 ---
-title: "Action and Engagement Measures"
+title: "A Guide for Measuring Open Data Use"
 ---
 
 The open data action toolkit provides guidance on how to measure organizational actions and public engagement with open data. The actions and measures shared in the toolkit were identified from literature review of existing research on open data use and measures, supplemented with findings from case studies of 3 local governments in the United States.

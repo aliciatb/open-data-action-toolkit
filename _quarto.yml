@@ -13,14 +13,11 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Actions
+      - text: Action Measures
         href: actions.qmd
       - text: Data Portal Measures
-        menu: 
-          - data_portal_measures.qmd
-          - text: Web Analytics
-            href: analytics.qmd
-      - text: Engagement
+        href: data_portal_measures.qmd
+      - text: Engagement Measures
         menu: 
           - engagement.qmd
           - text: Articles

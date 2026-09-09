@@ -120,28 +120,17 @@ div.csl-indent {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./actions.html"> 
-<span class="menu-text">Actions</span></a>
+<span class="menu-text">Action Measures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./data_portal_measures.html" aria-current="page"> 
+<span class="menu-text">Data Portal Measures</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-portal-measures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data Portal Measures</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-engagement-measures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Engagement Measures</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data-portal-measures">    
-        <li>
-    <a class="dropdown-item" href="./data_portal_measures.html">
- <span class="dropdown-text">Data Portal Measures</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./analytics.html">
- <span class="dropdown-text">Web Analytics</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-engagement" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Engagement</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-engagement">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-engagement-measures">    
         <li>
     <a class="dropdown-item" href="./engagement.html">
  <span class="dropdown-text">Engagement</span></a>
@@ -185,15 +174,10 @@ div.csl-indent {
   <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a>
   <ul class="collapse">
   <li><a href="#overview-pages" id="toc-overview-pages" class="nav-link" data-scroll-target="#overview-pages">Overview Pages</a></li>
-  </ul></li>
-  <li><a href="#data-catalogs" id="toc-data-catalogs" class="nav-link" data-scroll-target="#data-catalogs">Data Catalogs</a>
-  <ul class="collapse">
+  <li><a href="#data-catalogs" id="toc-data-catalogs" class="nav-link" data-scroll-target="#data-catalogs">Data Catalogs</a></li>
   <li><a href="#apis-application-programming-interfaces" id="toc-apis-application-programming-interfaces" class="nav-link" data-scroll-target="#apis-application-programming-interfaces">APIs (Application programming interfaces)</a></li>
   </ul></li>
-  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a>
-  <ul class="collapse">
-  <li><a href="#data-portal-detailed-reports" id="toc-data-portal-detailed-reports" class="nav-link" data-scroll-target="#data-portal-detailed-reports">Data Portal Detailed Reports</a></li>
-  </ul></li>
+  <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a></li>
   <li><a href="#summary-of-measures" id="toc-summary-of-measures" class="nav-link" data-scroll-target="#summary-of-measures">Summary of Measures</a></li>
   </ul>
 </nav>
@@ -222,14 +206,17 @@ div.csl-indent {
 
 <section id="why-data-portal-measures-matter" class="level2">
 <h2 class="anchored" data-anchor-id="why-data-portal-measures-matter">Why data portal measures matter</h2>
-<p>Web analytics provides raw data on what assets are most popular</p>
+<p>Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.</p>
+<p>Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog <span class="citation" data-cites="schwoerer2022">(<a href="#ref-schwoerer2022" role="doc-biblioref">Schwoerer 2022</a>)</span>. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data <span class="citation" data-cites="nahon2015">(<a href="#ref-nahon2015" role="doc-biblioref">Nahon et al. 2015</a>)</span>.</p>
 </section>
 <section id="web-analytic-measures" class="level2">
 <h2 class="anchored" data-anchor-id="web-analytic-measures">Web Analytic Measures</h2>
-<p>Data portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use <span class="citation" data-cites="tylertechnologies2022">(<a href="#ref-tylertechnologies2022" role="doc-biblioref">Tyler Technologies 2022</a>)</span>, <span class="citation" data-cites="esri">(<a href="#ref-esri" role="doc-biblioref">Esri, n.d.</a>)</span>.</p>
+<p>Data portals typically provide the number of views of assets, downloads of datasets, and programmatic requests to the API (application programming interface) endpoints of assets.</p>
+<p>Additional measures of quality may be inferred by the contents of data catalogs and capabilities of data portals.</p>
 </section>
 <section id="data-collection" class="level2">
 <h2 class="anchored" data-anchor-id="data-collection">Data Collection</h2>
+<p>Data portals displage the lifetime page views for data assets on individual overview pages, data catalog listings, and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use <span class="citation" data-cites="tylertechnologies2022">(<a href="#ref-tylertechnologies2022" role="doc-biblioref">Tyler Technologies 2022</a>)</span>, <span class="citation" data-cites="esri">(<a href="#ref-esri" role="doc-biblioref">Esri, n.d.</a>)</span>.</p>
 <section id="overview-pages" class="level3">
 <h3 class="anchored" data-anchor-id="overview-pages">Overview Pages</h3>
 <p>Dataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the <a href="https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/about_data">Issued Construction Permits</a> on the Austin data portal.</p>
@@ -241,16 +228,16 @@ div.csl-indent {
 </div>
 <p>In the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.</p>
 </section>
-</section>
-<section id="data-catalogs" class="level2">
-<h2 class="anchored" data-anchor-id="data-catalogs">Data Catalogs</h2>
-<p>The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.</p>
+<section id="data-catalogs" class="level3">
+<h3 class="anchored" data-anchor-id="data-catalogs">Data Catalogs</h3>
+<p>Data catalogs enable user to search for relevant data and also sort results by assets with the most views. The Tyler Technology open data platform also includes the lifetime views of assets.</p>
+<p>As organizations often maintain multiple data portals for geospatial and tabular data, it is important to check whether they have multiple sites and if data is federated to a single portal to facilitate public discovery of data.</p>
 <p>Example data catalogs include:</p>
 <ul>
 <li><p>Austin, Texas</p>
 <ul>
 <li><p>Data catalog: <a href="https://data.austintexas.gov/browse" class="uri">https://data.austintexas.gov/browse</a></p></li>
-<li><p>Map catalog: <a href="https://austin.maps.arcgis.com/home/gallery.html" class="uri">https://austin.maps.arcgis.com/home/gallery.html</a></p></li>
+<li><p>Maps and applications catalog: <a href="https://austin.maps.arcgis.com/home/gallery.html" class="uri">https://austin.maps.arcgis.com/home/gallery.html</a></p></li>
 </ul></li>
 <li><p>Baton Rouge, Louisiana</p>
 <ul>
@@ -259,14 +246,17 @@ div.csl-indent {
 </ul></li>
 <li><p>San Francisco, California</p>
 <ul>
-<li><p>Data catalog: <a href="https://data.sfgov.org/browse" class="uri">https://data.sfgov.org/browse</a></p></li>
-<li><p>Maps and : <a href="https://sfgov.maps.arcgis.com/home/gallery.html" class="uri">https://sfgov.maps.arcgis.com/home/gallery.html</a></p></li>
+<li><p>Data catalog: <a href="https://data.sf.gov.org/browse" class="uri">https://data.sf.gov.org/browse</a></p></li>
+<li><p>Maps and applications catalog: <a href="https://sfgov.maps.arcgis.com/home/gallery.html" class="uri">https://sfgov.maps.arcgis.com/home/gallery.html</a></p></li>
 </ul></li>
 </ul>
+</section>
 <section id="apis-application-programming-interfaces" class="level3">
 <h3 class="anchored" data-anchor-id="apis-application-programming-interfaces">APIs (Application programming interfaces)</h3>
 <p>The Tyler Technologies Discovery API <span class="citation" data-cites="socrata">(<a href="#ref-socrata" role="doc-biblioref"><em>Socrata Discovery API</em>, n.d.</a>)</span> provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.</p>
-<p>Example API endpoint with parameters to retrieve all published data assets by data portal domain:</p>
+<p>In the <a href="https://github.com/aliciatb/open-data-action-toolkit/blob/main/_data/tylertech_discovery.xlsx">tylertech_discovery.xlsx</a> spreadsheet and <a href="https://github.com/aliciatb/open-data-action-toolkit/blob/main/_dashboards/tylertech_catalog_analytics.pbix">tylertech_catalog_analytics.pbix</a> Power BI dashboard available for download, the following data catalogs were queried and combined to demonstrate how to retrieve and easily refresh web analytic and metadata information.</p>
+<p><img src="images/clipboard-excel-getdata-discoapi.png" class="img-fluid"></p>
+<p>Below are the API endpoints with parameters to retrieve all published data assets by data portal domain.</p>
 <ul>
 <li><p>Austin, Texas</p>
 <ul>
@@ -292,10 +282,7 @@ div.csl-indent {
 <figcaption>Power BI Report of Discovery API Results</figcaption>
 </figure>
 </div>
-<p>Datasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog <span class="citation" data-cites="schwoerer2022">(<a href="#ref-schwoerer2022" role="doc-biblioref">Schwoerer 2022</a>)</span>. The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data <span class="citation" data-cites="nahon2015">(<a href="#ref-nahon2015" role="doc-biblioref">Nahon et al. 2015</a>)</span>.</p>
-<section id="data-portal-detailed-reports" class="level3">
-<h3 class="anchored" data-anchor-id="data-portal-detailed-reports">Data Portal Detailed Reports</h3>
-<p>Data portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.</p>
+<p>Data portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly. In San Francisco, the value of datasets is assigned by departments based on their internal value and value to the public and is included in their Dataset Inventory Report <span class="citation" data-cites="cityandcountyofsanfrancisco">(<a href="#ref-cityandcountyofsanfrancisco" role="doc-biblioref">City and County of San Francisco, n.d.</a>)</span>.</p>
 <p>Example portal reports:</p>
 <ul>
 <li><p>Austin, Texas</p>
@@ -308,19 +295,74 @@ div.csl-indent {
 </ul></li>
 <li><p>San Francisco, California</p>
 <ul>
-<li><a href="https://data.sfgov.org/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/">Dataset Inventory Explorer</a></li>
+<li><a href="https://data.sf.gov/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/">Dataset Inventory Explorer</a></li>
 </ul></li>
 </ul>
 </section>
-</section>
 <section id="summary-of-measures" class="level2">
-
+<h2 class="anchored" data-anchor-id="summary-of-measures">Summary of Measures</h2>
+<table class="table-striped table-hover caption-top table">
+<caption>Catalog and portal measures</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Measure Type</th>
+<th>Asset Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Views</td>
+<td><ul>
+<li><p>Datasets</p></li>
+<li><p>Feature layers</p></li>
+<li><p>Visualizations/Charts</p></li>
+<li><p>Maps</p></li>
+<li><p>Data Stories</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Downloads</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>API requests</td>
+<td><ul>
+<li><p>Datasets</p></li>
+<li><p>Feature layers</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Catalog Quality</td>
+<td><ul>
+<li><p>Category</p></li>
+<li><p>Description</p></li>
+<li><p>Publishing frequency</p></li>
+<li><p>Contact information</p></li>
+<li><p>Department</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Portal Quality</td>
+<td><ul>
+<li><p>Communication mechanism</p></li>
+<li><p>Support content</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Summary of Measures</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-cityandcountyofsanfrancisco" class="csl-entry" role="listitem">
+City, and County of San Francisco. n.d. <em>Dataset Inventory Explorer</em>. <a href="https://data.sf.gov/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/">https://data.sf.gov/stories/s/Dataset-Inventory-Explorer/dztp-vt7z/</a>.
+</div>
 <div id="ref-esri" class="csl-entry" role="listitem">
 Esri. n.d. <em>Monitor Item Usage<span></span>ArcGIS Online Help</em>. <a href="https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm">https://doc.arcgis.com/en/arcgis-online/manage-data/monitor-item-usage.htm</a>.
 </div>

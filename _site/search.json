@@ -119,34 +119,6 @@
     "text": "Equitable Access to News\nWhile new opportunities for rich storytelling through narratives and digital tools created by data reporters, there is also a concern that they are not accessible to everyone (Felle 2016) and depend on access to devices, internet, and subscriptions to news services."
   },
   {
-    "objectID": "analytics.html",
-    "href": "analytics.html",
-    "title": "Web Analytics",
-    "section": "",
-    "text": "The first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data."
-  },
-  {
-    "objectID": "analytics.html#data-catalogs",
-    "href": "analytics.html#data-catalogs",
-    "title": "Web Analytics",
-    "section": "Data Catalogs",
-    "text": "Data Catalogs\nExample data catalogs include:\n\nAustin, Texas\n\nData catalog: https://data.austintexas.gov/browse\nMap catalog: https://austin.maps.arcgis.com/home/gallery.html\n\nBaton Rouge, Louisiana\n\nData catalog: https://data.brla.gov/browse\nMaps and applications catalog: https://data-ebrgis.opendata.arcgis.com/search\n\nSan Francisco, California\n\nData catalog: https://data.sfgov.org/browse\nMaps and : https://sfgov.maps.arcgis.com/home/gallery.html"
-  },
-  {
-    "objectID": "analytics.html#web-analytics",
-    "href": "analytics.html#web-analytics",
-    "title": "Web Analytics",
-    "section": "Web Analytics",
-    "text": "Web Analytics\nData portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use (Tyler Technologies 2022), (Esri, n.d.).\n\nOverview Pages\nDataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the Issued Construction Permits on the Austin data portal.\n\n\n\nIssued Building Permits\n\n\nIn the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.\n\n\nAPIs (Application programming interfaces)\nThe Tyler Technologies Discovery API (Socrata Discovery API, n.d.) provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.\nExample API endpoint with parameters to retrieve all published data assets by data portal domain:\n\nAustin, Texas\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.austintexas.gov&published=true&limit=5000\n\nBaton Rouge, Louisiana\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.brla.gov&published=true&limit=5000\n\nSan Francisco, California\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&published=true&limit=5000\n\n\nThe following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.\n\n\n\nPower BI Report of Discovery API Results\n\n\nDatasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog (Schwoerer 2022). The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data (Nahon et al. 2015).\n\n\nData Portal Detailed Reports\nData portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.\nExample portal reports:\n\nAustin, Texas\n\nOpen Data Portal Web Analytics Dashboard\n\nBaton Rouge, Louisiana\n\nWebsite Analytics Dataset\n\nSan Francisco, California\n\nDataset Inventory Explorer"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.\nThe development of the open data actions and measures toolkit fulfills one part of a dissertation portfolio that focuses on measuring open data use and engagement to serve and empower the public.\nSource code: https://github.com/aliciatb/open-data-action-toolkit\n\n\n\n Back to top"
-  },
-  {
     "objectID": "actions.html",
     "href": "actions.html",
     "title": "Organizational Actions",
@@ -186,7 +158,7 @@
     "href": "actions.html#organization-change-measures",
     "title": "Organizational Actions",
     "section": "Organization Change Measures",
-    "text": "Organization Change Measures\nAdditions to staffing or changes to groups to ensure there is adequate staff to publish new data, address increases in data work, and facilitate coordination show commitment to making data publicly available.\nExamples of organization changes made to improve analytics capacity include the integration of GIS staff with the Information Services team in Baton Rouge (Baton Rouge and Parish of East Baton Rouge 2023)."
+    "text": "Organization Change Measures\nAdditions to staffing or changes to groups to ensure there is adequate staff to publish new data, address increases in data work, and facilitate coordination show commitment to making data publicly available.\nAn example of an organization change in Baton Rouge made to improve analytics capacity is the integration of the GIS staff with the Information Services team to form a unified Division of Data, Analytics and Performance team and the creation of a dedicated outreach coordinator position (Baton Rouge and Parish of East Baton Rouge 2023)."
   },
   {
     "objectID": "actions.html#data-collection",
@@ -210,6 +182,13 @@
     "text": "Summary of Measures\n\nOrganizational Action Measures\n\n\n\n\n\n\n\n\nCategory\nData Product\nMeasures\nNew datasets and data products\nContext\nWhat initiated the creation of the new dataset or data product:\n\nPublic information request\nDepartment initiative\nLeadership priority\nDirective or resolution\nTechnology standard or policy\nCommunity issue\nEmergency event\n\n\n\n\n\n\n\n\n\n\nData Product\nUpdates to datasets\nHow new fields and information make the data more valuable and useful\n\n\n\nSupport\nNew communcation channels for open data team and data owners\nWhy a new solution was implemented\n\n\n\nSupport\nNewsletters, social media campaigns, press releases\nTopics and platforms\n\n\n\nSupport\nNew content (videos, tutorials, knowledge base articles)\nWhat dataset or data product required additional guidance? Did\n\n\n\nEvents\nEvents hosted or supported\nEvent theme and audience\n\n\n\nEvents\nEvent attendance\nType of attendance\n\n\n\nOrganization\nChanges to organization structure\nDriver of the change"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.\nThe development of the open data actions and measures toolkit fulfills one part of a dissertation portfolio that focuses on measuring open data use and engagement to serve and empower the public.\nSource code: https://github.com/aliciatb/open-data-action-toolkit\n\n\n\n Back to top"
+  },
+  {
     "objectID": "analytic_dashboards.html",
     "href": "analytic_dashboards.html",
     "title": "Analytic Dashboards",
@@ -221,47 +200,47 @@
     "href": "data_portal_measures.html",
     "title": "Data Portal Measures",
     "section": "",
-    "text": "Web analytics provides raw data on what assets are most popular"
+    "text": "Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.\nDataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog (Schwoerer 2022). The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data (Nahon et al. 2015)."
   },
   {
     "objectID": "data_portal_measures.html#why-data-portal-measures-matter",
     "href": "data_portal_measures.html#why-data-portal-measures-matter",
     "title": "Data Portal Measures",
     "section": "",
-    "text": "Web analytics provides raw data on what assets are most popular"
+    "text": "Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.\nDataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog (Schwoerer 2022). The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data (Nahon et al. 2015)."
   },
   {
     "objectID": "data_portal_measures.html#web-analytic-measures",
     "href": "data_portal_measures.html#web-analytic-measures",
     "title": "Data Portal Measures",
     "section": "Web Analytic Measures",
-    "text": "Web Analytic Measures\nData portals publish the number of page views for data assets on overview pages and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use (Tyler Technologies 2022), (Esri, n.d.)."
+    "text": "Web Analytic Measures\nData portals typically provide the number of views of assets, downloads of datasets, and programmatic requests to the API (application programming interface) endpoints of assets.\nAdditional measures of quality may be inferred by the contents of data catalogs and capabilities of data portals."
   },
   {
     "objectID": "data_portal_measures.html#data-collection",
     "href": "data_portal_measures.html#data-collection",
     "title": "Data Portal Measures",
     "section": "Data Collection",
-    "text": "Data Collection\n\nOverview Pages\nDataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the Issued Construction Permits on the Austin data portal.\n\n\n\nIssued Building Permits\n\n\nIn the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads."
-  },
-  {
-    "objectID": "data_portal_measures.html#data-catalogs",
-    "href": "data_portal_measures.html#data-catalogs",
-    "title": "Data Portal Measures",
-    "section": "Data Catalogs",
-    "text": "Data Catalogs\nThe first step to find analytic information is to locate the data catalog on a data portal. Organizations may have multiple data portals that house their data.\nExample data catalogs include:\n\nAustin, Texas\n\nData catalog: https://data.austintexas.gov/browse\nMap catalog: https://austin.maps.arcgis.com/home/gallery.html\n\nBaton Rouge, Louisiana\n\nData catalog: https://data.brla.gov/browse\nMaps and applications catalog: https://data-ebrgis.opendata.arcgis.com/search\n\nSan Francisco, California\n\nData catalog: https://data.sfgov.org/browse\nMaps and : https://sfgov.maps.arcgis.com/home/gallery.html\n\n\n\nAPIs (Application programming interfaces)\nThe Tyler Technologies Discovery API (Socrata Discovery API, n.d.) provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.\nExample API endpoint with parameters to retrieve all published data assets by data portal domain:\n\nAustin, Texas\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.austintexas.gov&published=true&limit=5000\n\nBaton Rouge, Louisiana\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.brla.gov&published=true&limit=5000\n\nSan Francisco, California\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&published=true&limit=5000"
+    "text": "Data Collection\nData portals displage the lifetime page views for data assets on individual overview pages, data catalog listings, and through APIs (application programming interface). Tyler Technologies and Esri provide documentation on their use (Tyler Technologies 2022), (Esri, n.d.).\n\nOverview Pages\nDataset overview pages provide important details about the data and lifetime page views and downloads. An example of an overview page is the Issued Construction Permits on the Austin data portal.\n\n\n\nIssued Building Permits\n\n\nIn the “About” section, the lifetime views and downloads are shown, which for this dataset consist of 5.38 million views and 82.3 thousand downloads.\n\n\nData Catalogs\nData catalogs enable user to search for relevant data and also sort results by assets with the most views. The Tyler Technology open data platform also includes the lifetime views of assets.\nAs organizations often maintain multiple data portals for geospatial and tabular data, it is important to check whether they have multiple sites and if data is federated to a single portal to facilitate public discovery of data.\nExample data catalogs include:\n\nAustin, Texas\n\nData catalog: https://data.austintexas.gov/browse\nMaps and applications catalog: https://austin.maps.arcgis.com/home/gallery.html\n\nBaton Rouge, Louisiana\n\nData catalog: https://data.brla.gov/browse\nMaps and applications catalog: https://data-ebrgis.opendata.arcgis.com/search\n\nSan Francisco, California\n\nData catalog: https://data.sf.gov.org/browse\nMaps and applications catalog: https://sfgov.maps.arcgis.com/home/gallery.html\n\n\n\n\nAPIs (Application programming interfaces)\nThe Tyler Technologies Discovery API (Socrata Discovery API, n.d.) provides analytic details for all data assets on a data portal that includes lifetime views and downloads, as well as views in the last week and month, providing insights on current public interest. Authentication is not required to access information about published data assets on domain. Tools like Excel and Power BI can easily connect to the API endpoint to make information available for analysis.\nIn the tylertech_discovery.xlsx spreadsheet and tylertech_catalog_analytics.pbix Power BI dashboard available for download, the following data catalogs were queried and combined to demonstrate how to retrieve and easily refresh web analytic and metadata information.\n\nBelow are the API endpoints with parameters to retrieve all published data assets by data portal domain.\n\nAustin, Texas\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.austintexas.gov&published=true&limit=5000\n\nBaton Rouge, Louisiana\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.brla.gov&published=true&limit=5000\n\nSan Francisco, California\n\nDiscovery catalog endpoint: http://api.us.socrata.com/api/catalog/v1?search_context=data.sfgov.org&published=true&limit=5000"
   },
   {
     "objectID": "data_portal_measures.html#reporting",
     "href": "data_portal_measures.html#reporting",
     "title": "Data Portal Measures",
     "section": "Reporting",
-    "text": "Reporting\nThe following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.\n\n\n\nPower BI Report of Discovery API Results\n\n\nDatasets can be measured by their value to departments and the public. Dataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog (Schwoerer 2022). The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data (Nahon et al. 2015).\n\nData Portal Detailed Reports\nData portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly.\nExample portal reports:\n\nAustin, Texas\n\nOpen Data Portal Web Analytics Dashboard\n\nBaton Rouge, Louisiana\n\nWebsite Analytics Dataset\n\nSan Francisco, California\n\nDataset Inventory Explorer"
+    "text": "Reporting\nThe following screenshot of a Power BI report demonstrates the type of useful information that can be found about the use of data assets from open data portals. The report and an excel file are available on the code repository for demonstration purposes.\n\n\n\nPower BI Report of Discovery API Results\n\n\nData portal publishers have additional analytic data available to them, including measures with date and time information and often share that information publicly. In San Francisco, the value of datasets is assigned by departments based on their internal value and value to the public and is included in their Dataset Inventory Report (City and County of San Francisco, n.d.).\nExample portal reports:\n\nAustin, Texas\n\nOpen Data Portal Web Analytics Dashboard\n\nBaton Rouge, Louisiana\n\nWebsite Analytics Dataset\n\nSan Francisco, California\n\nDataset Inventory Explorer"
+  },
+  {
+    "objectID": "data_portal_measures.html#summary-of-measures",
+    "href": "data_portal_measures.html#summary-of-measures",
+    "title": "Data Portal Measures",
+    "section": "Summary of Measures",
+    "text": "Summary of Measures\n\nCatalog and portal measures\n\n\n\n\n\n\nMeasure Type\nAsset Type\n\n\n\n\nViews\n\nDatasets\nFeature layers\nVisualizations/Charts\nMaps\nData Stories\n\n\n\nDownloads\n\n\n\nAPI requests\n\nDatasets\nFeature layers\n\n\n\nCatalog Quality\n\nCategory\nDescription\nPublishing frequency\nContact information\nDepartment\n\n\n\nPortal Quality\n\nCommunication mechanism\nSupport content"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Action and Engagement Measures",
+    "title": "A Guide for Measuring Open Data Use",
     "section": "",
     "text": "The open data action toolkit provides guidance on how to measure organizational actions and public engagement with open data. The actions and measures shared in the toolkit were identified from literature review of existing research on open data use and measures, supplemented with findings from case studies of 3 local governments in the United States.\nThe examples provided in the toolkit are based on the data, data products, and reporting created by case study participants from the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco open data programs. Community developed analysis, tools, and data products are also presented here demonstrating the important role of open data intermediaries to synthesize government data, create innovative tools for exploring data, and advocate on behalf of the public.\n\nOrganizational Action Measures\nThe toolkit first provides examples of the types of actions taken by organizations to support open data use, including:\n\nThe creation of data products (datasets, maps, applications, dashboards, visualizations, data stories, and initiative websites) in support of public information requests, department initiatives, leadership priorities, directives or resolutions, technology standards or policies, community issues, or emergency events\nThe provision of support and communication mechanisms\nHosting and participating in local events\nOrganization and staffing changes\n\nLearn more about tracking organizational actions.\n\n\nData Portal Measures\nThe toolkit then demonstrates how to measure direct use of data and other assets published on data portals from data portal anayltics. Measures include:\n\nViews of datasets, maps, dashboards, visualizations, and data stories\nDataset downloads\nRequests to API (application programming interface) endpoints by analysis tools and code\nCatalog quality inferred by the evaluation of metadata and dataset characteristics\nPortal quality evaluated through support and enablement mechanisms\n\nLearn more about tracking data portal measures.\n\n\nPublic Engagement Measures\nThe toolkit also provides examples of public activity that confirm interest and use of open data including:\n\nAttendance at events and outcomes\nQuestions for data owners\nSupport requests\nPublic information requests\nViews of support content\nSocial media engagement\nRegistration to mail distribution lists\nIntemediariy activity and contributions using open datasets or the creation of new datasets in:\n\nArticles in local news websites and blogs\nAnalysis products\nTools\nAdvocacy\nEnablement content, training, and events\n\n\nLearn more about monitoring public engagement measures.\n\n\nReporting Practices\nFinally, the toolkit shows how regular reporting enables organizations to link government and community priorities with actions and measures of progress.\nLearn how to incorporate reporting practices and view examples of annual reports, blog posts, and analytic dashboards.\n\n\n\n\n Back to top"
   },

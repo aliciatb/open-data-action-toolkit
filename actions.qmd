@@ -31,7 +31,7 @@ Open data day celebrations, datathons, and hackathons are ways that open data pr
 
 Additions to staffing or changes to groups to ensure there is adequate staff to publish new data, address increases in data work, and facilitate coordination show commitment to making data publicly available.
 
-An xample of an organization change made to improve analytics capacity is the integration of GIS staff with the Information Services team in Baton Rouge into the unified Division of Data, Analytics and Performance [@cityofbatonrougeandparishofeastbatonrouge2023a].
+An example of an organization change in Baton Rouge made to improve analytics capacity is the integration of the GIS staff with the Information Services team to form a unified Division of Data, Analytics and Performance team and the creation of a dedicated outreach coordinator position [@cityofbatonrougeandparishofeastbatonrouge2023a].
 
 ## Data Collection
 
