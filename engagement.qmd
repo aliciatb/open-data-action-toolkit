@@ -1,55 +1,69 @@
 ---
-title: "Engagement"
+title: "Engagement Measures"
 bibliography: references.bib
 link-citations: true
+tbl-cap-location: bottom
 ---
 
 ## Why engagement measures matter
 
-Engagement with open data can be detected by public interactions with programs and the activity of community organizations, local news organizations, and other intermediaries.
-
-## Public Activity
+Engagement with open data can be detected by public interactions with programs and the activity of community organizations, local news organizations, and other intermediaries. The presence of articles demonstrates accessibility of department data for local reporting and public interest.
 
 Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
 
-### Measures
-
-Providing users access through support platforms makes it easy to isolate and report on:
-
-- Public information requests
-
-- Questions for data owners
-
-- Technical support
-
-- Data quality issues
-
-## Articles
-
 The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information [@shaharudin2023], creating feedback loops to government [@wilson2019], and hosting datathon events[@kopf2022].
 
-### Measures
+## Interaction Measures
 
-Article measures include publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article. The presence of articles demonstrates accessibility of department data for local reporting and public interest.
+Support and Customer Relationship Management platforms makes it possible to report on the types of requests made by the public and resolution information.
 
-View methods for reporting on [articles](articles.qmd).
+## Engagement Measures
 
-## Event outcomes
+Views of content, social media registration and reach, newsletter registration, and attendance events demonstrate interest and engagement with programs and community organizations.
+
+## Activity Measures
+
+Public activity may be detected as new articles and tools created externally that reference open data or contribute new data.
+
+Measures include the publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article.
 
 In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
 
-## Public Activity
+## Data Collection
 
-Monitoring and supporting the contributions by community organizations and intermediaries
+Articles may be tracked through manual monitoring of websites and blogs of local organizations as well as by setting up alerts, such as with [Google Alerts](https://www.google.com/alerts#). Articles may be tracked in citation tools, like Zotero, which provides rich organization features and export of data as CSV file. Articles can also be maintained manually in a spreadsheet.
 
-### Open Austin
+Contributions by community organizations can be found on websites and by registering to mailing lists and attending events.
 
-The civic engagement community organization, Open Austin, has served Austin since 2009. They successfully advocated for the creation of the open data portal [@dunbar2009], served as members of the local Code for America chapter, and continue to be active in helping their community to have access to data to improve local conditions and policies.
+The civic engagement community organization, Open Austin, has served Austin since 2009. They successfully advocated for the creation of the open data portal [@dunbar2009], served as members of the local Code for America chapter, and continue to be active in helping their community to have access to data to improve local conditions and policies. Read more about their [projects](https://open-austin.odoo.com/lab) and [fellowships](https://open-austin.odoo.com/fellowship).
 
-Learn more about Open Austin [projects](https://open-austin.odoo.com/lab) and [fellowships](https://open-austin.odoo.com/fellowship).
+The civic technology community organization, SF Civic Tech, has served San Francisco since 2013, where they began as the local Code for America chapter [@re-int2024]. Read more about their [projects](https://www.sfcivictech.org/projects) and [events](https://www.meetup.com/sfcivictech/events).
 
-### SF Civic Tech
+## Reporting
 
-The civic technology community organization, SF Civic Tech, has served San Francisco since 2013, where they began as the local Code for America chapter [@re-int2024].
+The following screenshot of a Power BI report demonstrates the number of articles and blog posts related to open data, data reporting, and events initiating open government transparency between 2009 and 2025. Including notes with links to data sources and newspaper can be used to link articles to data products and provide insights to department data publishers on the use of their data.
 
-Learn more about SF Civic Tech [projects](https://www.sfcivictech.org/projects) and [events](https://www.meetup.com/sfcivictech/events), including a City Camp [unconference](https://citycamp.com/events/san-francisco-ca-united-states-2026).
+![](images/clipboard-powerbi-citations.png){fig-alt="Dashboard screenshot of a Power BI report news citations about open data in Austin, Baton Rouge, and San Francisco"}
+
+## Summary of Measures
+
++--------------------+-----------------------------------------------+
+| Type               | Measures                                      |
++====================+===============================================+
+| Public Interaction | 1.  Attendance at events and outcomes         |
+|                    | 2.  Questions for data owners                 |
+|                    | 3.  Support requests                          |
+|                    | 4.  Public information requests               |
++--------------------+-----------------------------------------------+
+| Public Engagement  | 1.  Views of support content                  |
+|                    | 2.  Social media engagement                   |
+|                    | 3.  Registration to mail distribution lists   |
++--------------------+-----------------------------------------------+
+| Public Activity    | 1.  Articles in local news websites and blogs |
+|                    | 2.  Analysis products                         |
+|                    | 3.  Tools                                     |
+|                    | 4.  Advocacy                                  |
+|                    | 5.  Enablement content, training, and events  |
++--------------------+-----------------------------------------------+
+
+: Engagement Measures  {.striped .hover}

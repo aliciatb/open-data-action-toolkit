@@ -18,12 +18,7 @@ website:
       - text: Data Portal Measures
         href: data_portal_measures.qmd
       - text: Engagement Measures
-        menu: 
-          - engagement.qmd
-          - text: Articles
-            href: articles.qmd
-          - text: Public Activity
-            href: public_activity.qmd
+        href: engagement.qmd
       - reporting.qmd
       - about.qmd
   page-footer:

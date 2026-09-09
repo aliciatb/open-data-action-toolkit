@@ -1,5 +1,0 @@
----
-title: "Analytic Dashboards"
-bibliography: references.bib
-link-citations: true
----

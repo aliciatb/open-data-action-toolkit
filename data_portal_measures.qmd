@@ -2,6 +2,7 @@
 title: "Data Portal Measures"
 bibliography: references.bib
 link-citations: true
+tbl-cap-location: bottom
 ---
 
 ## Why data portal measures matter
@@ -113,7 +114,9 @@ Example portal reports:
 |                 |                           |
 |                 | - Data Stories            |
 +-----------------+---------------------------+
-| Downloads       |                           |
+| Downloads       | - Datasets                |
+|                 |                           |
+|                 | - Feature layers          |
 +-----------------+---------------------------+
 | API requests    | - Datasets                |
 |                 |                           |

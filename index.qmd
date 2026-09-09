@@ -18,7 +18,7 @@ The toolkit first provides examples of the types of actions taken by organizatio
 
 4.  Organization and staffing changes
 
-Learn more about tracking [organizational actions](actions.qmd).
+Learn more about tracking [organizational action measures](actions.qmd).
 
 # Data Portal Measures
 
@@ -36,7 +36,7 @@ The toolkit then demonstrates how to measure direct use of data and other assets
 
 Learn more about tracking [data portal measures](data_portal_measures.qmd).
 
-# Public Engagement Measures
+# Engagement Measures
 
 The toolkit also provides examples of public activity that confirm interest and use of open data including:
 
@@ -54,7 +54,7 @@ The toolkit also provides examples of public activity that confirm interest and 
     d.  Advocacy
     e.  Enablement content, training, and events
 
-Learn more about monitoring [public engagement](engagement.qmd) measures.
+Learn more about monitoring [public engagement measures](engagement.qmd).
 
 # Reporting Practices
 
