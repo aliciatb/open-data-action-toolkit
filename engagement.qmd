@@ -41,7 +41,7 @@ The civic technology community organization, SF Civic Tech, has served San Franc
 
 ## Reporting
 
-The following screenshot of a Power BI report demonstrates the number of articles and blog posts related to open data, data reporting, and events initiating open government transparency between 2009 and 2025. Including notes with links to data sources and newspaper can be used to link articles to data products and provide insights to department data publishers on the use of their data.
+The following screenshot of a [Power BI report](https://github.com/aliciatb/open-data-action-toolkit/blob/main/_dashboards/zotero_news_article_citations.pbix) demonstrates the number of articles and blog posts related to open data, data reporting, and events initiating open government transparency between 2009 and 2025. Including notes with links to data sources and newspaper can be used to link articles to data products and provide insights to department data publishers on the use of their data.
 
 ![](images/clipboard-powerbi-citations.png){fig-alt="Dashboard screenshot of a Power BI report news citations about open data in Austin, Baton Rouge, and San Francisco"}
 
@@ -66,4 +66,4 @@ The following screenshot of a Power BI report demonstrates the number of article
 |                    | 5.  Enablement content, training, and events  |
 +--------------------+-----------------------------------------------+
 
-: Engagement Measures  {.striped .hover}
+: Engagement Measures {.striped .hover}
