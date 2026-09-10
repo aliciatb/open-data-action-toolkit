@@ -12,5 +12,5 @@ The examples provided in the toolkit are based on the data, data products, and r
 ## Data
 
 The [data](https://github.com/aliciatb/open-data-action-toolkit/tree/main/_data) folder contains:
- - 3 text files of article citations used in the [zotero_news_article_citations.pbix](https://github.com/aliciatb/open-data-action-toolkit/blob/main/_dashboards/zotero_news_article_citations.pbix) Power BI dashboard
+ - 3 text files of article citations used in the [zotero_news_article_citations.pbix](https://github.com/aliciatb/open-data-action-toolkit/blob/main/_dashboards/zotero_news_article_citations.pbix) Power BI dashboard to analyze articles written using open data or about programs.
  - The [tylertech_discovery.xlsx](https://github.com/aliciatb/open-data-action-toolkit/blob/main/_data/tylertech_discovery.xlsx), like the tylertech_catalog_analytics.pbix](https://github.com/aliciatb/open-data-action-toolkit/blob/main/_dashboards/tylertech_catalog_analytics.pbix) Power BI dashboard, demonstrates how to connect to the [Discovery API](https://dev.socrata.com/docs/other/discovery#?route=overview--purpose) using Excel rather than Power BI.
