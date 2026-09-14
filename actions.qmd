@@ -86,3 +86,4 @@ A consistent feature of the Baton Rouge annual open data policy report is the "B
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
 
 : Organizational Action Measures {.striped .hover}
+

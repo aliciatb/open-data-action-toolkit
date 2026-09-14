@@ -38,21 +38,23 @@ Learn more about tracking [data portal measures](data_portal_measures.qmd).
 
 # Engagement Measures
 
-The toolkit also provides examples of public activity that confirm interest and use of open data including:
+The toolkit also provides examples of public engagement that confirm interest and use of open data including:
 
-1.  Attendance at events and outcomes
+1.  Support requests
 2.  Questions for data owners
-3.  Support requests
-4.  Public information requests
-5.  Views of support content
-6.  Social media engagement
-7.  Registration to mail distribution lists
-8.  Intemediariy activity and contributions using open datasets or the creation of new datasets in:
+3.  Public information requests
+4.  Views of support content
+5.  Social media engagement
+6.  Registration to mail distribution lists
+7.  Attendance at events
+8.  Event outcomes
+9.  Intermediariy activity and contributions including:
     a.  Articles in local news websites and blogs
     b.  Analysis products
     c.  Tools
-    d.  Advocacy
-    e.  Enablement content, training, and events
+    d.  New data
+    e.  Advocacy
+    f.  Enablement content, training, and events
 
 Learn more about monitoring [public engagement measures](engagement.qmd).
 

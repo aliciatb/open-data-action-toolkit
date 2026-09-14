@@ -7,15 +7,11 @@ tbl-cap-location: bottom
 
 ## Why engagement measures matter
 
-Engagement with open data can be detected by public interactions with programs and the activity of community organizations, local news organizations, and other intermediaries. The presence of articles demonstrates accessibility of department data for local reporting and public interest.
-
-Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
-
-The potential for journalists and researchers to act as intermediaries of open data by synthesizing open data into useful information [@shaharudin2023], creating feedback loops to government [@wilson2019], and hosting datathon events[@kopf2022].
+Engagement with open data can be seen in public interactions and engagement with programs, and the activity of community organizations, local news organizations, and other intermediaries.
 
 ## Interaction Measures
 
-Support and Customer Relationship Management platforms makes it possible to report on the types of requests made by the public and resolution information.
+Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
 
 ## Engagement Measures
 
@@ -23,13 +19,15 @@ Views of content, social media registration and reach, newsletter registration, 
 
 ## Activity Measures
 
-Public activity may be detected as new articles and tools created externally that reference open data or contribute new data.
+The contributions of journalists and researchers include synthesizing open data into useful information [@shaharudin2023], providing feedback loops to government [@wilson2019], and hosting datathon events[@kopf2022].
 
 Measures include the publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article.
 
 In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
 
 ## Data Collection
+
+Many of the measures that demonstrate engagement rely on manual collection or from data of underlying systems that track customer relationship interactions, support requests, and communications.
 
 Articles may be tracked through manual monitoring of websites and blogs of local organizations as well as by setting up alerts, such as with [Google Alerts](https://www.google.com/alerts#). Articles may be tracked in citation tools, like Zotero, which provides rich organization features and export of data as CSV file. Articles can also be maintained manually in a spreadsheet.
 
@@ -47,23 +45,25 @@ The following screenshot of a [Power BI report](https://github.com/aliciatb/open
 
 ## Summary of Measures
 
-+--------------------+-----------------------------------------------+
-| Type               | Measures                                      |
-+====================+===============================================+
-| Public Interaction | 1.  Attendance at events and outcomes         |
-|                    | 2.  Questions for data owners                 |
-|                    | 3.  Support requests                          |
-|                    | 4.  Public information requests               |
-+--------------------+-----------------------------------------------+
-| Public Engagement  | 1.  Views of support content                  |
-|                    | 2.  Social media engagement                   |
-|                    | 3.  Registration to mail distribution lists   |
-+--------------------+-----------------------------------------------+
-| Public Activity    | 1.  Articles in local news websites and blogs |
-|                    | 2.  Analysis products                         |
-|                    | 3.  Tools                                     |
-|                    | 4.  Advocacy                                  |
-|                    | 5.  Enablement content, training, and events  |
-+--------------------+-----------------------------------------------+
++-----------------------+------------------------------------------------+
+| Type                  | Measures                                       |
++=======================+================================================+
+| Public Interactions   | 1.  Support requests                           |
+|                       | 2.  Questions for data owners                  |
+|                       | 3.  Public information requests                |
++-----------------------+------------------------------------------------+
+| Public Engagement     | 1.  Views of support content                   |
+|                       | 2.  Social media engagement                    |
+|                       | 3.  Registration to mail distribution lists    |
+|                       | 4.  Attendance at events                       |
+|                       | 5.  Events outcomes                            |
++-----------------------+------------------------------------------------+
+| Intermediary Activity | 1.  Articles in local news websites and blogs  |
+|                       | 2.  Analysis products                          |
+|                       | 3.  Tools                                      |
+|                       | 4.  New data                                   |
+|                       | 5.  Advocacy                                   |
+|                       | 6.  Enablement content, training, and events   |
++-----------------------+------------------------------------------------+
 
 : Engagement Measures {.striped .hover}
