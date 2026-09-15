@@ -165,21 +165,21 @@
     "href": "data_portal_measures.html",
     "title": "Data Portal Measures",
     "section": "",
-    "text": "Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.\nDataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog (Schwoerer 2022). The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data (Nahon et al. 2015)."
+    "text": "Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.\nIn addition to evaluating how individual data assets are used, analysis of data portal features and data catalogs makes it possible to characterize a municipality’s commitment to open data (Nahon et al. 2015), the impact of policy, governance, and population characteristics on (Wilson and Cong 2020), levels of user engagement with open data portals (Begany and Gil-Garcia 2021), and the usefulness open data to the public and support for democratic participation (Schwoerer 2022)."
   },
   {
     "objectID": "data_portal_measures.html#why-data-portal-measures-matter",
     "href": "data_portal_measures.html#why-data-portal-measures-matter",
     "title": "Data Portal Measures",
     "section": "",
-    "text": "Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.\nDataset characteristics like category, agency function, expected user group, information type, and related open government principle have been used to evaluate the public usefulness of a data catalog (Schwoerer 2022). The evaluation of metadata completion, communication mechanisms, and publishing frequency provides a way to track the commitment of a program to providing open data (Nahon et al. 2015)."
+    "text": "Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.\nIn addition to evaluating how individual data assets are used, analysis of data portal features and data catalogs makes it possible to characterize a municipality’s commitment to open data (Nahon et al. 2015), the impact of policy, governance, and population characteristics on (Wilson and Cong 2020), levels of user engagement with open data portals (Begany and Gil-Garcia 2021), and the usefulness open data to the public and support for democratic participation (Schwoerer 2022)."
   },
   {
     "objectID": "data_portal_measures.html#web-analytic-measures",
     "href": "data_portal_measures.html#web-analytic-measures",
     "title": "Data Portal Measures",
     "section": "Web Analytic Measures",
-    "text": "Web Analytic Measures\nData portals typically provide the number of views of assets, downloads of datasets, and programmatic requests to the API (application programming interface) endpoints of assets.\nAdditional measures of quality may be inferred by the contents of data catalogs and capabilities of data portals."
+    "text": "Web Analytic Measures\nData portals typically provide the number of views of assets, downloads of datasets, and programmatic requests to the API (application programming interface) endpoints of assets to measure their utilization.\nMeasures of municipality commitment to open data include publishing frequency, coverage of data to services provided, metadata completion, and communication mechanisms (Nahon et al. 2015).\nUser engagement with open data portals can be measured by activities including the creation of assets from datasets, views of assets, data downloads, and views of applications realized through API requests (Begany and Gil-Garcia 2021)."
   },
   {
     "objectID": "data_portal_measures.html#data-collection",
