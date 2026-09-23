@@ -3,6 +3,7 @@ title: "Engagement Measures"
 bibliography: references.bib
 link-citations: true
 tbl-cap-location: bottom
+license: "CC BY"
 ---
 
 ## Why engagement measures matter

@@ -3,6 +3,7 @@ title: "Organizational Actions"
 bibliography: references.bib
 link-citations: true
 tbl-cap-location: bottom
+license: "CC BY"
 ---
 
 ## Why organizational action measures matter

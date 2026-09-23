@@ -23,10 +23,13 @@ website:
       - about.qmd
   page-footer:
       background: light
-      left: "Copyright 2026, Alicia Brown" 
+      left: "Copyright 2026, Alicia Brown"
       right: 
         - icon: github
           href: https://github.com/aliciatb/open-data-action-toolkit
+        - icon: heart-fill
+          href: https://quarto.org
+          text: Built with Quarto ❤️
 
 format:
   html:
