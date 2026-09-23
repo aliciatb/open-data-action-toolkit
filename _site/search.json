@@ -56,18 +56,18 @@
     "text": "Interaction Measures\nRequests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public (Guy 2021)."
   },
   {
-    "objectID": "engagement.html#engagement-measures",
-    "href": "engagement.html#engagement-measures",
+    "objectID": "engagement.html#use-and-participation-measures",
+    "href": "engagement.html#use-and-participation-measures",
     "title": "Engagement Measures",
-    "section": "Engagement Measures",
-    "text": "Engagement Measures\nViews of content, social media registration and reach, newsletter registration, and attendance events demonstrate interest and engagement with programs and community organizations."
+    "section": "Use and Participation Measures",
+    "text": "Use and Participation Measures\nViews of content, social media registration and reach, newsletter registration, and attendance at events demonstrate interest and engagement with programs and community organizations.\nIn addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants (Jaskiewicz et al. 2019)."
   },
   {
     "objectID": "engagement.html#activity-measures",
     "href": "engagement.html#activity-measures",
     "title": "Engagement Measures",
     "section": "Activity Measures",
-    "text": "Activity Measures\nThe contributions of journalists and researchers include synthesizing open data into useful information (Shaharudin et al. 2023), providing feedback loops to government (Wilson and Chakraborty 2019), and hosting datathon events(Kopf 2022).\nMeasures include the publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article.\nIn addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants (Jaskiewicz et al. 2019)."
+    "text": "Activity Measures\nMeasures include the publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article.\nThe contributions of journalists and researchers include synthesizing open data into useful information (Shaharudin et al. 2023), providing feedback loops to government (Wilson and Chakraborty 2019), and even hosting datathon events(Kopf 2022).\nThe data reporting team (Mission Local, n.d.) at the Mission Local in San Francisco have both presented analysis of data from the portal (Jarrett 2023) and contributed new data they have gathered through public information requests or collaboration with others to present in depth analysis and interactive tools on local corruption (Eskenazi and Jarrett 2021) and victims of police shootings (Horowitz et al. 2022)."
   },
   {
     "objectID": "engagement.html#data-collection",
@@ -151,7 +151,7 @@
     "href": "actions.html#summary-of-measures",
     "title": "Organizational Actions",
     "section": "Summary of Measures",
-    "text": "Summary of Measures\n\nOrganizational Action Measures\n\n\n\n\n\n\n\nCategory\nMeasures\nContext\n\n\n\n\nData Product\nNew datasets and data products\nWhat initiated the creation of the new dataset or data product:\n\nPublic information request\nDepartment initiative\nLeadership priority\nDirective or resolution\nTechnology standard or policy\nCommunity issue\nEmergency event\n\n\n\nData Product\n\nHow new fields and information make the data more valuable and useful\n\n\nSupport\n\nWhy a new solution was implemented\n\n\nSupport\n\nTopics and platforms\n\n\nSupport\n\nWhat dataset or data product required additional guidance?\n\n\nEvent\n\nEvent theme and audience\n\n\nEvent\n\nType of attendance\n\n\nOrganization\nChanges to organization structure\nDriver of the change"
+    "text": "Summary of Measures\n\nOrganizational Action Measures\n\n\n\n\n\n\n\nCategory\nMeasures\nContext\n\n\n\n\nData Product\nNew datasets and data products\nWhat initiated the creation of the new dataset or data product:\n\nPublic information request\nDepartment initiative\nLeadership priority\nDirective or resolution\nTechnology standard or policy\nCommunity issue\nEmergency event\n\n\n\nData Product\nUpdates to datasets and products\nHow new fields and information make the data more valuable and useful\n\n\nSupport\nChange in ticket systems\nWhy and how a new solution better supports users\n\n\nSupport\nArticles and videos\nTopics and platforms\n\n\nSupport\nSupport reauests and questions\nWhat dataset or data product required additional guidance?\n\n\nEvent\nEvents\nEvent theme and audience\n\n\nEvent\nAttendance\nType of attendance (virtual, in-person)\n\n\nOrganization\nChanges to organization structure\nDriver of the change"
   },
   {
     "objectID": "about.html",

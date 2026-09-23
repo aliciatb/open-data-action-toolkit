@@ -70,17 +70,17 @@ A consistent feature of the Baton Rouge annual open data policy report is the "B
 |              |                                   |                                                                       |
 |              |                                   | - Emergency event                                                     |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
-| Data Product |                                   | How new fields and information make the data more valuable and useful |
+| Data Product | Updates to datasets and products  | How new fields and information make the data more valuable and useful |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
-| Support      |                                   | Why a new solution was implemented                                    |
+| Support      | Change in ticket systems          | Why and how a new solution better supports users                      |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
-| Support      |                                   | Topics and platforms                                                  |
+| Support      | Articles and videos               | Topics and platforms                                                  |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
-| Support      |                                   | What dataset or data product required additional guidance?            |
+| Support      | Support reauests and questions    | What dataset or data product required additional guidance?            |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
-| Event        |                                   | Event theme and audience                                              |
+| Event        | Events                            | Event theme and audience                                              |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
-| Event        |                                   | Type of attendance                                                    |
+| Event        | Attendance                        | Type of attendance (virtual, in-person)                               |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+
 | Organization | Changes to organization structure | Driver of the change                                                  |
 +--------------+-----------------------------------+-----------------------------------------------------------------------+

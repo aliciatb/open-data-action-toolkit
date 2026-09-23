@@ -13,17 +13,19 @@ Engagement with open data can be seen in public interactions and engagement with
 
 Requests made by the public are valuable opportunities to gather feedback and build trust by responding to matters that are meaningful and personally important to members of the public [@guy2021].
 
-## Engagement Measures
+## Use and Participation Measures
 
-Views of content, social media registration and reach, newsletter registration, and attendance events demonstrate interest and engagement with programs and community organizations.
+Views of content, social media registration and reach, newsletter registration, and attendance at events demonstrate interest and engagement with programs and community organizations.
+
+In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
 
 ## Activity Measures
 
-The contributions of journalists and researchers include synthesizing open data into useful information [@shaharudin2023], providing feedback loops to government [@wilson2019], and hosting datathon events[@kopf2022].
-
 Measures include the publication, date, topic, department data owners, links to data, and contributions made by the publication staff of new data, visualizations, and tools created in support of the article.
 
-In addition to counting the number of events and attendees, there are other measures that show the contributions made by the public. Examples of important hackathon measures include new ideas, viable design concepts, prototypes, participant social connections, new start-ups, and increased domain and technical knowledge gains for participants [@jaskiewicz2019].
+The contributions of journalists and researchers include synthesizing open data into useful information [@shaharudin2023], providing feedback loops to government [@wilson2019], and even hosting datathon events[@kopf2022].
+
+The data reporting team [@missionlocal] at the Mission Local in San Francisco have both presented analysis of data from the portal [@jarrett2023] and contributed new data they have gathered through public information requests or collaboration with others to present in depth analysis and interactive tools on local corruption [@eskenazi2021] and victims of police shootings [@horowitz2022].
 
 ## Data Collection
 
@@ -45,25 +47,25 @@ The following screenshot of a [Power BI report](https://github.com/aliciatb/open
 
 ## Summary of Measures
 
-+-----------------------+------------------------------------------------+
-| Type                  | Measures                                       |
-+=======================+================================================+
-| Public Interactions   | 1.  Support requests                           |
-|                       | 2.  Questions for data owners                  |
-|                       | 3.  Public information requests                |
-+-----------------------+------------------------------------------------+
-| Public Engagement     | 1.  Views of support content                   |
-|                       | 2.  Social media engagement                    |
-|                       | 3.  Registration to mail distribution lists    |
-|                       | 4.  Attendance at events                       |
-|                       | 5.  Events outcomes                            |
-+-----------------------+------------------------------------------------+
-| Intermediary Activity | 1.  Articles in local news websites and blogs  |
-|                       | 2.  Analysis products                          |
-|                       | 3.  Tools                                      |
-|                       | 4.  New data                                   |
-|                       | 5.  Advocacy                                   |
-|                       | 6.  Enablement content, training, and events   |
-+-----------------------+------------------------------------------------+
++-----------------------+-----------------------------------------------+
+| Type                  | Measures                                      |
++=======================+===============================================+
+| Public Interactions   | 1.  Support requests                          |
+|                       | 2.  Questions for data owners                 |
+|                       | 3.  Public information requests               |
++-----------------------+-----------------------------------------------+
+| Public Engagement     | 1.  Views of support content                  |
+|                       | 2.  Social media engagement                   |
+|                       | 3.  Registration to mail distribution lists   |
+|                       | 4.  Attendance at events                      |
+|                       | 5.  Events outcomes                           |
++-----------------------+-----------------------------------------------+
+| Intermediary Activity | 1.  Articles in local news websites and blogs |
+|                       | 2.  Analysis products                         |
+|                       | 3.  Tools                                     |
+|                       | 4.  New data                                  |
+|                       | 5.  Advocacy                                  |
+|                       | 6.  Enablement content, training, and events  |
++-----------------------+-----------------------------------------------+
 
 : Engagement Measures {.striped .hover}
