@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Open Data Public Measures Toolkit"
+  favicon: images/noun_3753272_@700.png
   page-navigation: true
   back-to-top-navigation: true
   
@@ -23,13 +24,17 @@ website:
       - about.qmd
   page-footer:
       background: light
-      left: "Copyright 2026, Alicia Brown"
+      left: 
+        - text: CC BY 4.0 license ⚖️
+          href: https://creativecommons.org/licenses/by/4.0/
+      center: 
+        - text: Copyright 2026, Alicia Brown 🦚
       right: 
         - icon: github
           href: https://github.com/aliciatb/open-data-action-toolkit
-        - icon: heart-fill
+        - text: Built with Quarto 💜
           href: https://quarto.org
-          text: Built with Quarto ❤️
+          
 
 format:
   html:

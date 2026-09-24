@@ -1,6 +1,5 @@
 ---
 title: "About"
-license: "CC BY"
 ---
 
 The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.

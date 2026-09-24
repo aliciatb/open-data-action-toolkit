@@ -2,7 +2,6 @@
 title: "Reporting"
 bibliography: references.bib
 link-citations: true
-license: "CC BY"
 ---
 
 ## Why reporting matters
