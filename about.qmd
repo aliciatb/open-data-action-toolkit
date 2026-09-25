@@ -2,21 +2,19 @@
 title: "About"
 ---
 
-The toolkit identifies the types of measures that signal public use and engagement with open data and provides recommendations for regular reporting of actions and resulting activity.
+The development of the open data actions and measures toolkit fulfills one part of a [doctor of social sciences](https://www.royalroads.ca) dissertation portfolio on how organizations measure the use of open data by public users. Interview participants generously shared their experiences on how they know the public uses open data and the important role of the public to improve what data is published by local governments.
 
 The examples provided in the toolkit are based on the data, data products, and reporting created by case study participants from the [City of Austin](https://www.austintexas.gov), the [City of Baton Rouge and Parish of East Baton Rouge](https://www.brla.gov), and the [City and County of San Francisco](https://www.sf.gov) open data programs. Community-developed analysis, tools, and data products are also presented here demonstrating the important role of open data intermediaries to synthesize government data, create innovative tools for exploring data, and advocate on behalf of the public.
 
-The development of the open data actions and measures toolkit fulfills one part of a [doctor of social sciences](https://www.royalroads.ca/programs/doctor-social-sciences) dissertation portfolio on how organizations measure the use of open data by public users. Interview participants generously shared their experiences on how they know the public uses open data and the important role of the public to improve what data is published by local governments.
-
-The toolkit demonstrates ways that participant organizations holistically track organizational actions and public engagement with open data. The toolkit also brings attention to the ways that open data serves the public through user-friendly applications, news articles with interactive data exploration tools, and relevant data demanded by the public and community advocates.
+The toolkit demonstrates ways that participant organizations holistically track organizational actions and public engagement with open data. The toolkit also brings attention to the ways that open data serves the public through user-friendly applications, news articles with interactive data exploration tools, and providing relevant data for the public and community advocates.
 
 ## Contributions
 
-In addition to highlighting the work of interview participants and their communities, the toolkit includes Power BI reports and spreadsheets that demonstrate:
+In addition to highlighting the work of interview participants, their communities, and other open data research, the toolkit includes Power BI reports and spreadsheets that demonstrate:
 
 1.  How to retrieve information about data catalog products and analytics
 2.  How to track and analyze content and tools created by local news and community organizations
 
 ## Feedback
 
-The toolkit, reports, and data are available on github, <https://github.com/aliciatb/open-data-action-toolkit> for reuse and contributions. Feel free to log [issues](https://github.com/aliciatb/storymap-data/issues), add [comments](https://github.com/aliciatb/open-data-action-toolkit/issues), and make [pull requests](https://github.com/aliciatb/storymap-data/pulls).
+The toolkit, reports, and data are available on github, <https://github.com/aliciatb/open-data-action-toolkit> for reuse and contributions. Feel free to log [issues](https://github.com/aliciatb/storymap-data/issues), add [comments](https://github.com/aliciatb/open-data-action-toolkit/issues), make [pull requests](https://github.com/aliciatb/storymap-data/pulls), or send an [e-mail](mailto:alicia.9brown@royalroads.ca).
