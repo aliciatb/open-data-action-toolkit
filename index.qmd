@@ -2,9 +2,9 @@
 title: "A Guide for Measuring Open Data Use"
 ---
 
-The open data action toolkit provides guidance on how to measure organizational actions and public engagement with open data. The actions and measures shared in the toolkit were identified from literature review of existing research on open data use and measures, supplemented with findings from case studies of 3 local governments in the United States.
+The open data action toolkit provides guidance on how to measure organizational actions and public engagement with open data. The measures and reporting practices shared in the toolkit were identified from literature review and findings from case studies of 3 local governments in the United States.
 
-The examples provided in the toolkit are based on the data, data products, and reporting created by case study participants from the [City of Austin](https://www.austintexas.gov), the [City of Baton Rouge and Parish of East Baton Rouge](https://www.brla.gov), and the [City and County of San Francisco](https://www.sf.gov) open data programs. Community developed analysis, tools, and data products are also presented here demonstrating the important role of open data intermediaries to synthesize government data, create innovative tools for exploring data, and advocate on behalf of the public.
+Learn more about the [research](about.qmd).
 
 # Organizational Action Measures
 
