@@ -88,7 +88,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The development of the open data action toolkit fulfills one part of a doctor of social sciences dissertation portfolio on how organizations measure the use of open data by public users. Interview participants generously shared their experiences on how they know the public uses open data and the important role of the public to improve what data is published by local governments.\nThe examples provided in the toolkit are based on the data, data products, and reporting of case study participants from the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, and the City and County of San Francisco and local organizations. Community-developed analysis, tools, and data products presented here demonstrate how open data intermediaries synthesize government data, create innovative tools for exploring data, and advocate on behalf of the public.\nThe toolkit demonstrates ways that participant organizations holistically track organizational actions and public engagement with open data. The toolkit also brings attention to the ways that open data serves the public through user-friendly applications, news articles with interactive data exploration tools, and providing relevant data for the public and community advocates."
+    "text": "The development of the open data action toolkit fulfills one part of a doctor of social sciences dissertation portfolio on how organizations measure the use of open data by public users. Interview participants generously shared their experiences on how they know the public uses open data and the important role of the public to improve what data is published by local governments.\nThe examples provided in the toolkit are based on the data, data products, and reporting of case study participants from the City of Austin, the City of Baton Rouge and Parish of East Baton Rouge, the City and County of San Francisco, and local organizations. Community-developed analysis, tools, and data products presented here demonstrate how open data intermediaries synthesize government data, create innovative tools for exploring data, and advocate on behalf of the public.\nThe toolkit demonstrates ways that organizations may holistically track organizational actions and public engagement with open data. The toolkit also brings attention to the ways that open data serves the public through user-friendly applications, news articles with interactive data exploration tools, and providing relevant data for the public and community advocates."
   },
   {
     "objectID": "about.html#contributions",
@@ -102,7 +102,7 @@
     "href": "about.html#feedback",
     "title": "About",
     "section": "Feedback",
-    "text": "Feedback\nThe toolkit, reports, and data are available on github, https://github.com/aliciatb/open-data-action-toolkit for reuse and contributions. Feel free to log issues, add comments, make pull requests, or send an e-mail."
+    "text": "Feedback\nThe toolkit, reports, and data are available on github, https://github.com/aliciatb/open-data-action-toolkit for reuse and contributions. Feel free to log issues, add comments, make pull requests, or send an e-mail with feedback and questions."
   },
   {
     "objectID": "actions.html",
