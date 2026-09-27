@@ -9,7 +9,7 @@ tbl-cap-location: bottom
 
 Web analytics provides raw data on all assets on a data portal. Analytics combined with metadata and dataset information provide a holistic view of how people are accessing open data that can be presented to data owners and the public.
 
-In addition to evaluating how individual data assets are used, analysis of data portal features and data catalogs makes it possible to characterize a municipality's commitment to open data [@nahon2015], the impact of policy, governance, and population characteristics on [@wilson2020], levels of user engagement with open data portals [@begany2021], and the usefulness open data to the public and support for democratic participation [@schwoerer2022].
+In addition to evaluating how individual data assets are used, analysis of data portal features and data catalogs makes it possible to characterize a municipality's commitment to open data [@nahon2015], the impact of policy, governance, and population characteristics on data portal content [@wilson2020], levels of user engagement with open data portals [@begany2021], and the usefulness open data to the public and support for democratic participation [@schwoerer2022].
 
 ## Web Analytic Measures
 
