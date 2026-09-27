@@ -6,7 +6,6 @@ website:
   favicon: images/noun_3753272_@700.png
   page-navigation: true
   back-to-top-navigation: true
-  
   navbar:
     background: primary
     search: true
@@ -35,8 +34,6 @@ website:
       right:
         - text: Built with Quarto 🩵
           href: https://quarto.org
-          
-
 format:
   html:
     respect-user-color-scheme: true
@@ -48,5 +45,4 @@ format:
     table:
       striped: true
       hover: true
-
 editor: visual
